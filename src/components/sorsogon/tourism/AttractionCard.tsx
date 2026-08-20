@@ -48,7 +48,9 @@ const AttractionCard: FC<{ a: Attraction }> = ({ a }) => {
     });
 
   return (
-    <article className='flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-[0_1px_2px_rgba(0,0,0,0.05)]'>
+    // No h-full: with the grid's items-start each card must self-size, or
+    // expanding one card stretches every sibling in the row.
+    <article className='flex flex-col overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-[0_1px_2px_rgba(0,0,0,0.05)]'>
       {a.photo ? (
         <div className='relative aspect-[4/3] w-full overflow-hidden bg-slate-100'>
           <img

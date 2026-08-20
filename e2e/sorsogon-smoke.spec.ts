@@ -115,3 +115,26 @@ for (const rc of ROUTES) {
     expect(issues, JSON.stringify(result, null, 2)).toEqual([]);
   });
 }
+
+/**
+ * Regression: expanding one tourism card's "Plan your visit" must neither
+ * open nor resize any sibling card (user-reported twice; root causes were
+ * grid row-stretch via items-stretch, then h-full on the card article).
+ */
+test('tourism: expanding one card leaves siblings untouched', async ({
+  page,
+}) => {
+  await page.goto('/tourism');
+  const cards = page.locator('article');
+  const sibling = cards.nth(1);
+  const before = await sibling.boundingBox();
+
+  const summary = cards.nth(0).locator('summary').first();
+  await summary.scrollIntoViewIfNeeded();
+  await summary.click();
+  await page.waitForTimeout(250);
+
+  await expect(page.locator('details[open]')).toHaveCount(1);
+  const after = await sibling.boundingBox();
+  expect(Math.round(after!.height)).toBe(Math.round(before!.height));
+});
