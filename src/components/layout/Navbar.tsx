@@ -53,13 +53,16 @@ const Navbar: FC = () => {
     'transition-colors duration-150 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2';
 
   return (
-    <div className='print:hidden'>
+    // Fragment root: the sticky <nav> must be a direct child of the
+    // full-height page wrapper — inside a header-sized div it has no
+    // scroll room and never actually sticks.
+    <>
       {/* Slim unofficial-portal notice */}
-      <div className='bg-amber-50 py-1.5 text-center text-xs text-amber-900'>
+      <div className='bg-amber-50 py-1.5 text-center text-xs text-amber-900 print:hidden'>
         Unofficial community portal — not affiliated with any government office.
       </div>
 
-      <nav className='sticky top-0 z-50 border-b border-slate-200 bg-white/85 backdrop-blur'>
+      <nav className='sticky top-0 z-50 border-b border-slate-200 bg-white/85 backdrop-blur print:hidden'>
         <div className='mx-auto flex max-w-6xl items-center justify-between px-4 sm:px-6'>
           <div className='flex h-16 items-center'>
             <Wordmark />
@@ -134,7 +137,7 @@ const Navbar: FC = () => {
           </div>
         )}
       </nav>
-    </div>
+    </>
   );
 };
 

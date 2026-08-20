@@ -71,7 +71,9 @@ const ServicesPage: FC = () => {
       />
 
       {/* Filter controls — a compact bar that sticks below the site header. */}
-      <div className='sticky top-16 z-30 border-b border-slate-200 bg-white/90 backdrop-blur'>
+      {/* Solid background: translucent+blur let card text ghost through on
+          some renderers, making the pinned bar look broken mid-scroll. */}
+      <div className='sticky top-16 z-30 border-b border-slate-200 bg-white shadow-sm'>
         <div className='mx-auto max-w-6xl px-4 sm:px-6 py-3'>
           <div className='flex flex-col gap-3 md:flex-row md:items-center md:justify-between'>
             <div
