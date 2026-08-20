@@ -249,7 +249,8 @@ const HotlinesPage: FC = () => {
             {total}
           </span>{' '}
           hotline{total === 1 ? '' : 's'}. National and province-wide lines stay
-          visible for every area. Last checked{' '}
+          visible for every area. Every number on this page was checked against
+          an official government source — last verified{' '}
           <span className='tabular-nums'>{hotlinesData.verified_at}</span>.
         </p>
 

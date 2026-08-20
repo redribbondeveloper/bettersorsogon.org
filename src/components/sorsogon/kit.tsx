@@ -311,16 +311,18 @@ export const Badge: FC<BadgeProps> = ({
 );
 
 /* ------------------------------------------------------------------ */
-/* UnverifiedBadge — single-source data marker.                        */
+/* UnverifiedBadge — single-source data marker. The item WAS audited   */
+/* against an official source; the badge only signals that a second    */
+/* independent source hasn't confirmed it yet.                         */
 /* ------------------------------------------------------------------ */
 export const UnverifiedBadge: FC<{ className?: string }> = ({
   className = '',
 }) => (
   <span
-    title='single-source — not yet independently confirmed'
+    title='Verified against one official source; not yet independently cross-checked'
     className={`inline-flex items-center text-[11px] uppercase tracking-wide text-slate-500 border border-slate-400 rounded-full px-2 py-0.5 ${className}`}
   >
-    Unverified
+    Single source
   </span>
 );
 
@@ -351,20 +353,20 @@ export const ContactRow: FC<ContactRowProps> = ({
   return (
     <div className={`min-h-11 flex items-center gap-3 ${className}`}>
       {icon && <span className='shrink-0 text-slate-400'>{icon}</span>}
-      <span className='text-sm text-slate-500'>{label}</span>
+      <span className='shrink-0 text-sm text-slate-500'>{label}</span>
       {href ? (
         <a
           href={href}
           target={external ? '_blank' : undefined}
           rel={external ? 'noopener noreferrer' : undefined}
-          className={`text-sm text-teal-800 hover:text-teal-900 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 rounded ${
+          className={`min-w-0 [overflow-wrap:anywhere] text-sm text-teal-800 hover:text-teal-900 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 rounded ${
             isPhone ? 'font-medium tabular-nums' : ''
           }`}
         >
           {value ?? href}
         </a>
       ) : value ? (
-        <span className='text-sm text-slate-700'>{value}</span>
+        <span className='min-w-0 [overflow-wrap:anywhere] text-sm text-slate-700'>{value}</span>
       ) : (
         <span className='text-sm text-slate-400'>—</span>
       )}
