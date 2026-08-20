@@ -8,10 +8,10 @@ import versionData from '../../version.json';
 type Version = { head_commit?: string };
 
 const linkClass =
-  'rounded text-sm text-slate-300 transition-colors duration-150 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950';
+  'rounded text-sm text-slate-300 transition-colors duration-150 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950';
 
 const creditLinkClass =
-  'rounded text-white underline decoration-white/30 underline-offset-2 transition-colors duration-150 hover:decoration-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950';
+  'rounded text-white underline decoration-white/30 underline-offset-2 transition-colors duration-150 hover:decoration-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950';
 
 const Footer: FC = () => {
   const [version, setVersion] = useState<string | null>(null);
@@ -24,13 +24,13 @@ const Footer: FC = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className='bg-gradient-to-br from-slate-950 via-teal-950 to-slate-900 text-white print:hidden'>
+    <footer className='bg-gradient-to-br from-slate-950 via-brand-950 to-slate-900 text-white print:hidden'>
       <div className='mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20'>
         <div className='grid gap-10 sm:grid-cols-2 lg:grid-cols-4'>
           {/* Brand + disclaimer */}
           <div>
             <div className='flex items-center gap-2.5'>
-              <SorsogonMark className='h-9 w-auto shrink-0 text-teal-300' />
+              <SorsogonMark className='h-9 w-auto shrink-0 text-brand-300' />
               <span className='text-lg tracking-tight text-white'>
                 <span className='font-semibold'>BetterGov</span>{' '}
                 <span className='font-light'>Sorsogon</span>

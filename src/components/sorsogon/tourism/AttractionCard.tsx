@@ -40,7 +40,7 @@ const AttractionCard: FC<{ a: Attraction }> = ({ a }) => {
           href={a.facebook}
           target='_blank'
           rel='noopener noreferrer'
-          className='rounded text-teal-800 transition-colors duration-150 hover:text-teal-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+          className='rounded text-brand-800 transition-colors duration-150 hover:text-brand-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
         >
           Open Facebook page
         </a>
@@ -76,9 +76,9 @@ const AttractionCard: FC<{ a: Attraction }> = ({ a }) => {
           </div>
         </div>
       ) : (
-        <div className='relative h-24 overflow-hidden bg-gradient-to-br from-teal-950/5 via-slate-50 to-slate-100'>
+        <div className='relative h-24 overflow-hidden bg-gradient-to-br from-brand-950/5 via-slate-50 to-slate-100'>
           <WaveDivider
-            className='pointer-events-none absolute inset-x-0 -bottom-3 h-24 w-full text-teal-800'
+            className='pointer-events-none absolute inset-x-0 -bottom-3 h-24 w-full text-brand-800'
             opacity={0.1}
           />
         </div>
@@ -116,7 +116,7 @@ const AttractionCard: FC<{ a: Attraction }> = ({ a }) => {
 
         {planRows.length > 0 && (
           <details className='group mt-auto border-t border-slate-100 pt-4'>
-            <summary className='flex min-h-11 cursor-pointer list-none items-center justify-between gap-2 rounded text-sm font-medium text-teal-800 transition-colors duration-150 hover:text-teal-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 [&::-webkit-details-marker]:hidden'>
+            <summary className='flex min-h-11 cursor-pointer list-none items-center justify-between gap-2 rounded text-sm font-medium text-brand-800 transition-colors duration-150 hover:text-brand-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 [&::-webkit-details-marker]:hidden'>
               <span>Plan your visit</span>
               <ChevronDown
                 aria-hidden='true'

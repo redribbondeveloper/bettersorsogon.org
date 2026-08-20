@@ -33,10 +33,10 @@ const provDisasterTel = provDisasterNumber
 const Wordmark: FC = () => (
   <Link
     to='/'
-    className='flex min-h-11 items-center gap-2.5 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+    className='flex min-h-11 items-center gap-2.5 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
     aria-label='BetterGov Sorsogon — home'
   >
-    <SorsogonMark className='h-9 w-auto shrink-0 text-teal-800' />
+    <SorsogonMark className='h-9 w-auto shrink-0 text-brand-800' />
     <span className='flex flex-col'>
       <span className='text-lg leading-tight tracking-tight text-slate-900'>
         <span className='font-semibold'>BetterGov</span>{' '}
@@ -62,7 +62,7 @@ const Navbar: FC = () => {
   // Returns just the colour + weight utilities for a nav item.
   const linkTone = (item: { label: string; href: string }): string => {
     const active = isActivePath(pathname, item.href);
-    return `font-medium ${active ? 'text-teal-800' : 'text-slate-700 hover:text-teal-800'}`;
+    return `font-medium ${active ? 'text-brand-800' : 'text-slate-700 hover:text-brand-800'}`;
   };
 
   // Hotlines keeps a small red urgency dot without spending the red signal on
@@ -81,15 +81,15 @@ const Navbar: FC = () => {
     );
 
   const focusRing =
-    'transition-colors duration-150 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2';
+    'transition-colors duration-150 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2';
 
   // Utility-bar link tones. Emergency numbers are the one place red is spent
   // on the top bar (they are genuine emergency data); the hotlines link stays
   // neutral amber so red keeps its signal.
   const emergencyTelCls =
-    'rounded font-semibold tabular-nums text-red-700 transition-colors duration-150 hover:text-red-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2';
+    'rounded font-semibold tabular-nums text-red-700 transition-colors duration-150 hover:text-red-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2';
   const utilLinkCls =
-    'rounded font-medium text-amber-900 underline-offset-2 transition-colors duration-150 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2';
+    'rounded font-medium text-amber-900 underline-offset-2 transition-colors duration-150 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2';
 
   return (
     // Fragment root: the sticky <nav> must be a direct child of the
@@ -179,7 +179,7 @@ const Navbar: FC = () => {
             onClick={() => setOpen(o => !o)}
             aria-expanded={open}
             aria-label={open ? 'Close menu' : 'Open menu'}
-            className='inline-flex h-11 w-11 items-center justify-center rounded-lg text-slate-700 transition-colors hover:bg-slate-100 hover:text-teal-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 md:hidden'
+            className='inline-flex h-11 w-11 items-center justify-center rounded-lg text-slate-700 transition-colors hover:bg-slate-100 hover:text-brand-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 md:hidden'
           >
             {open ? (
               <svg

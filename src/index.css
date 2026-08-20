@@ -4,6 +4,21 @@
   /* Fonts */
   --font-sans: 'Figtree', ui-sans-serif, sans-serif;
 
+  /* Brand — Sorsogon provincial deep blue. Flag blue #003399 anchored at
+     brand-800; perceptually even steps up to near-black brand-950 for dark
+     surfaces and down to brand-50 for tints. */
+  --color-brand-50: #eff3fc;
+  --color-brand-100: #dce4f7;
+  --color-brand-200: #b9c8ef;
+  --color-brand-300: #8fa6e3;
+  --color-brand-400: #6484d6;
+  --color-brand-500: #3f63c4;
+  --color-brand-600: #274daf;
+  --color-brand-700: #123f9e;
+  --color-brand-800: #003399;
+  --color-brand-900: #002a7a;
+  --color-brand-950: #001a4d;
+
   /* Primary (blue) */
   --color-primary-50: #e6f0fd;
   --color-primary-100: #cce0fb;

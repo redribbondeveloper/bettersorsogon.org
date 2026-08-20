@@ -49,14 +49,14 @@ const CapitolDirectory: FC = () => {
             value={query}
             onChange={event => setQuery(event.target.value)}
             placeholder='Filter by office, official, or service…'
-            className='h-11 w-full rounded-lg border border-slate-300 bg-white pl-10 pr-12 text-[15px] text-slate-900 placeholder:text-slate-400 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+            className='h-11 w-full rounded-lg border border-slate-300 bg-white pl-10 pr-12 text-[15px] text-slate-900 placeholder:text-slate-400 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
           />
           {query && (
             <button
               type='button'
               onClick={() => setQuery('')}
               aria-label='Clear filter'
-              className='absolute inset-y-0 right-0 flex w-11 items-center justify-center rounded-r-lg text-slate-400 transition-colors duration-150 hover:text-slate-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+              className='absolute inset-y-0 right-0 flex w-11 items-center justify-center rounded-r-lg text-slate-400 transition-colors duration-150 hover:text-slate-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
             >
               <X className='h-4 w-4' aria-hidden='true' />
             </button>
@@ -85,7 +85,7 @@ const CapitolDirectory: FC = () => {
           <button
             type='button'
             onClick={() => setQuery('')}
-            className='mt-3 rounded text-sm font-medium text-teal-800 transition-colors duration-150 hover:text-teal-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+            className='mt-3 rounded text-sm font-medium text-brand-800 transition-colors duration-150 hover:text-brand-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
           >
             Clear filter
           </button>

@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 
 /**
  * ActionCard — a large, keyboard-focusable quick action used inside the
- * dark home hero. Two treatments: the default teal-glass card and the
+ * dark home hero. Two treatments: the default brand-glass card and the
  * `emergency` red-glass card (reserved for the hotlines action). Pass
  * `wide` for the full-width, horizontal layout.
  */
@@ -27,10 +27,10 @@ const ActionCard: FC<ActionCardProps> = ({
 }) => {
   const surface = emergency
     ? 'border-red-400/30 bg-red-500/10 hover:border-red-400/60 hover:bg-red-500/[0.16] focus-visible:ring-red-500'
-    : 'border-white/10 bg-white/[0.06] hover:border-white/25 hover:bg-white/[0.1] focus-visible:ring-teal-400';
+    : 'border-white/10 bg-white/[0.06] hover:border-white/25 hover:bg-white/[0.1] focus-visible:ring-brand-400';
   const iconWrap = emergency
     ? 'bg-red-500/20 text-red-300'
-    : 'bg-teal-400/15 text-teal-200';
+    : 'bg-brand-400/15 text-brand-200';
   const arrow = emergency
     ? 'text-red-300'
     : 'text-slate-400 group-hover:text-white';

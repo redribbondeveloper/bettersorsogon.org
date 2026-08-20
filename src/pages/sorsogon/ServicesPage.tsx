@@ -89,10 +89,10 @@ const ServicesPage: FC = () => {
                     type='button'
                     aria-pressed={active}
                     onClick={() => setActiveCat(pill.slug)}
-                    className={`inline-flex h-11 shrink-0 items-center whitespace-nowrap rounded-full px-4 text-sm font-medium transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 ${
+                    className={`inline-flex h-11 shrink-0 items-center whitespace-nowrap rounded-full px-4 text-sm font-medium transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 ${
                       active
-                        ? 'border border-teal-800 bg-teal-800 text-white'
-                        : 'border border-slate-300 text-slate-700 hover:border-teal-800 hover:text-teal-800'
+                        ? 'border border-brand-800 bg-brand-800 text-white'
+                        : 'border border-slate-300 text-slate-700 hover:border-brand-800 hover:text-brand-800'
                     }`}
                   >
                     {pill.name}
@@ -115,7 +115,7 @@ const ServicesPage: FC = () => {
                 value={query}
                 onChange={e => setQuery(e.target.value)}
                 placeholder='Search services…'
-                className='h-11 w-full rounded-lg border border-slate-300 bg-white pl-9 pr-3 text-[15px] text-slate-700 transition-colors duration-150 placeholder:text-slate-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+                className='h-11 w-full rounded-lg border border-slate-300 bg-white pl-9 pr-3 text-[15px] text-slate-700 transition-colors duration-150 placeholder:text-slate-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
               />
             </div>
           </div>
@@ -157,7 +157,7 @@ const ServicesPage: FC = () => {
             <button
               type='button'
               onClick={clearFilters}
-              className='mt-3 rounded font-medium text-teal-800 transition-colors duration-150 hover:text-teal-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+              className='mt-3 rounded font-medium text-brand-800 transition-colors duration-150 hover:text-brand-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
             >
               Clear filters
             </button>

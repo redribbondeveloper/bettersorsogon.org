@@ -189,7 +189,7 @@ const HomePage: FC = () => {
                 <li key={item.label}>
                   <Link
                     to={item.to}
-                    className='rounded text-sm font-medium text-teal-800 transition-colors duration-150 hover:text-teal-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+                    className='rounded text-sm font-medium text-brand-800 transition-colors duration-150 hover:text-brand-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
                   >
                     {item.label}
                   </Link>
@@ -291,8 +291,8 @@ const HomePage: FC = () => {
       </Section>
 
       {/* Why this exists — closing dark band */}
-      <section className='relative overflow-hidden bg-gradient-to-br from-slate-950 via-teal-950 to-slate-900 text-white'>
-        <WaveDivider className='pointer-events-none absolute inset-x-0 bottom-0 h-64 w-full text-teal-300' />
+      <section className='relative overflow-hidden bg-gradient-to-br from-slate-950 via-brand-950 to-slate-900 text-white'>
+        <WaveDivider className='pointer-events-none absolute inset-x-0 bottom-0 h-64 w-full text-brand-300' />
         <div className='relative mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20'>
           <p className='text-xs font-semibold uppercase tracking-[0.2em] text-amber-400'>
             Why this exists

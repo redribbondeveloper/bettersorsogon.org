@@ -25,7 +25,7 @@ const VideoFacade: FC<{ video: Video }> = ({ video }) => {
           type='button'
           onClick={() => setPlaying(true)}
           aria-label={`Play video: ${video.title}`}
-          className='group relative block aspect-video w-full overflow-hidden rounded-2xl bg-slate-900 shadow-[0_1px_2px_rgba(0,0,0,0.05)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+          className='group relative block aspect-video w-full overflow-hidden rounded-2xl bg-slate-900 shadow-[0_1px_2px_rgba(0,0,0,0.05)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
         >
           <img
             src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`}
@@ -39,7 +39,7 @@ const VideoFacade: FC<{ video: Video }> = ({ video }) => {
           />
           <span
             aria-hidden='true'
-            className='relative flex h-16 w-16 items-center justify-center rounded-full bg-teal-800 text-white shadow-lg transition-colors duration-150 group-hover:bg-teal-900'
+            className='relative flex h-16 w-16 items-center justify-center rounded-full bg-brand-800 text-white shadow-lg transition-colors duration-150 group-hover:bg-brand-900'
           >
             <svg viewBox='0 0 24 24' className='ml-1 h-7 w-7'>
               <path d='M8 5v14l11-7z' fill='currentColor' />
