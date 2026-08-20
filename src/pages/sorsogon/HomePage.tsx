@@ -22,6 +22,7 @@ import {
 } from '../../components/sorsogon/kit';
 import ActionCard from '../../components/sorsogon/home/ActionCard';
 import LeaderCard from '../../components/sorsogon/home/LeaderCard';
+import ExchangeRates from '../../components/sorsogon/home/ExchangeRates';
 import LguCard from '../../components/sorsogon/directory/LguCard';
 import lguDataRaw from '../../data/sorsogon/lgus.json';
 
@@ -198,6 +199,9 @@ const HomePage: FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Peso exchange rates — OFW-relevant, live, and fail-silent */}
+      <ExchangeRates />
 
       {/* Stats */}
       <Section
