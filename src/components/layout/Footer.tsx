@@ -2,6 +2,7 @@ import { FC, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowUpRight } from 'lucide-react';
 import { footerNavigation } from '../../data/navigation';
+import SorsogonMark from '../sorsogon/SorsogonMark';
 import versionData from '../../version.json';
 
 type Version = { head_commit?: string };
@@ -29,9 +30,7 @@ const Footer: FC = () => {
           {/* Brand + disclaimer */}
           <div>
             <div className='flex items-center gap-2.5'>
-              <span className='flex h-9 w-9 items-center justify-center rounded-lg bg-teal-800 text-[17px] font-semibold text-white'>
-                S
-              </span>
+              <SorsogonMark className='h-9 w-auto shrink-0 text-teal-300' />
               <span className='text-lg tracking-tight text-white'>
                 <span className='font-semibold'>BetterGov</span>{' '}
                 <span className='font-light'>Sorsogon</span>
