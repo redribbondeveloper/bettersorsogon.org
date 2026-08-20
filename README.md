@@ -1,141 +1,50 @@
-# BetterGov.ph
+# BetterGov Sorsogon
 
-![GitHub Repo Banner](https://ghrb.waren.build/banner?header=BetterGov.ph&subheader=Building+a+better+Philippines%27+national+website&bg=0051BA&color=fff&support=true)
+**The unofficial, community-run guide to government services, offices, and emergency lines across the Province of Sorsogon, Philippines.**
 
-A community-led initiative to create a better and more usable Philippine national government website.
+> ⚠️ **Not an official government website.** BetterGov Sorsogon is an independent, volunteer-maintained portal. It is not affiliated with, endorsed by, or connected to any government office or official. Always verify with the office before transacting.
 
-## Why We're Building This Project
+Built on the open-source, CC0-licensed [BetterGov.ph](https://bettergov.ph) ([source](https://github.com/bettergovph/bettergov)) — the first province-wide edition.
 
-The current state of Philippine government websites, particularly the main portal [www.gov.ph](https://www.gov.ph), presents numerous challenges for citizens:
+## What it covers
 
-- The main Gov.ph website is outdated and has not been updated for a long time
-- Full of broken links and difficult navigation paths
-- Inconsistent formatting and design across pages
-- Poor user experience and accessibility issues
-- Similar problems exist across most Philippine government agency websites
+| Section | Contents |
+|---|---|
+| `/hotlines` | 36 verified emergency numbers — national, province-wide, and per-LGU (MDRRMO, police, fire, medical, coast guard incl. Matnog ferry corridor). Print-ready for a barangay hall wall. |
+| `/disaster` | Typhoon & disaster guide — PSWS wind-signal explainer, go-bag checklist, before/during/after guidance, PAGASA / PHIVOLCS / NDRRMC links. |
+| `/directory` | 39 Provincial Capitol offices (confirmed official emails) + all 15 LGUs. |
+| `/directory/:slug` | Per-LGU pages — current 2025–2028 mayors and vice mayors, contacts, local emergency numbers, census stats. |
+| `/services` | 24 government services with Sorsogon context — PSA, LTO, PhilHealth, SSS, Pag-IBIG, BIR, NBI, scholarships, and where the nearest actual office is. |
+| `/tourism` | 17 sourced attractions — Donsol butanding, Bulusan Volcano Natural Park, Subic Beach & Juag Lagoon, Gubat surfing, festivals. |
 
-These issues create barriers for citizens trying to access essential government services and information.
+## Data integrity
 
-## Our Mission
+Every fact in `src/data/sorsogon/*.json` carries a `sources` array of URLs it was taken from, and a `verification` flag:
 
-We are a volunteer-led initiative with a clear mission: to provide a 'better' and 'usable' website for the Philippines.
+- **`cross-checked`** — two or more independent sources agree
+- **`single-source`** — one official source only (rendered with an "unverified" badge in the UI)
 
-Our goals include:
+The pipeline: (1) researched from official sources → (2) independently re-verified by a second reviewer trying to refute it → (3) published with source links. Anything unconfirmable is `null` or omitted — an honest gap beats a plausible guess. **Data verified as of 2026-08-20.**
 
-- Building a proper national website that reflects Filipino values and culture
-- Creating intuitive navigation and search functionality
-- Ensuring accessibility for all citizens, including those with disabilities
-- Providing accurate, up-to-date information about government services
-- Establishing a model for how government digital services can and should work
-
-## Features
-
-- Modern, responsive design that works on all devices
-- Comprehensive directory of government services and agencies
-- User-friendly navigation and search
-- Accessibility features for users with disabilities
-- Regular updates and maintenance
-
-## Documentation
-
-For an easy-to-read overview of the project, visit the [BetterGov Docs](https://docs.bettergov.ph/).
-
-## Join Us as a Volunteer
-
-We're always looking for passionate individuals to help improve BetterGov.ph. We need volunteers with various skills:
-
-- Frontend and backend developers
-- UX/UI designers
-- Content writers and editors
-- Translators (for Filipino and other local languages)
-- Accessibility experts
-- Project managers
-- QA testers
-
-If you're interested in contributing, please reach out to us at [volunteers@bettergov.ph](mailto:volunteers@bettergov.ph) or open an issue in this repository.
-
-## Code of Conduct
-
-We are committed to fostering a welcoming and respectful community.
-Please read our [Code of Conduct](./CODE_OF_CONDUCT.md) before participating.
-
-## Contributing
-
-We welcome contributions from everyone!
-Please see our [Contributing Guide](./CONTRIBUTING.md) for details on:
-
-- Development setup
-- Reporting bugs
-- Opening issues and pull requests
-
-## How to Run
+## Development
 
 ```bash
-# Install packages
 npm install
-
-# Start the server
-npm run dev
+npm run dev        # http://localhost:5173
+npm run build      # production build → dist/
+npx playwright test e2e/sorsogon-smoke.spec.ts   # smoke tests (run vite preview --port 4173 first)
 ```
 
-**Access the application at:** `http://localhost:5173`
+Stack: React 19 · Vite · TypeScript · Tailwind CSS v4. All content is static JSON — no backend, no database, no analytics, no cookies.
 
-## GitHub Codespaces
-
-You may use GitHub Codespaces for an instant development environment with dependencies automatically installed for you.
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/bettergovph/bettergov?quickstart=1)
-
-## Docker
-
-This project includes Docker support for easy deployment and consistent environments.
-
-### Building and Running
-
-```bash
-# Build the Docker image
-docker build -t bettergov .
-
-# Run the container
-docker run -p 8080:80 bettergov
-
-# Run in detached mode
-docker run -d -p 8080:80 --name bettergov bettergov
-```
-
-**Access the application at:** `http://localhost:8080`
-
-### Docker Compose
-
-For the easiest and most consistent development experience, we recommend using Docker Compose. This method uses Docker to run the application in a controlled environment with hot-reloading enabled.
-
-```bash
-# Start the development server
-docker-compose up
-
-# Start in detached mode
-docker-compose up -d
-
-# Stop the service
-docker-compose down
-```
-**Access the application at:** `http://localhost:5173`
-
-## Testing
-
-This project uses Playwright for end-to-end testing.
-For setup instructions, coverage details, and examples, see our [Testing Guide](./TESTING.md).
+Deploy: any static host. Cloudflare Pages works out of the box (`npm run build`, publish `dist/`).
 
 ## Contributing
 
-Thanks to all the people who already contributed!
+Corrections are the most valuable contribution — especially phone numbers and office details. Every data file records its sources, so a correction just needs a better official source. Correction channels will be posted once the public repository is up.
 
-<a href="https://github.com/bettergovph/bettergov/graphs/contributors">
-    <img src="https://contributors-img.web.app/image?repo=bettergovph/bettergov&max=750&columns=20" />
-</a>
+## Licenses
 
-## License
-
-This project is released under the [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/) dedication. This means the work is dedicated to the public domain and can be freely used by anyone for any purpose without restriction under copyright law.
-
----
+- **Code**: open source, derived from BetterGov.ph (CC0)
+- **Content**: CC BY 4.0
+- **Cost to the People of Sorsogon: ₱0**
