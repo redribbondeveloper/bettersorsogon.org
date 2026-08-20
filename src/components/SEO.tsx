@@ -26,7 +26,7 @@ interface SEOProps {
 export default function SEO({
   title,
   description,
-  ogImage = '/favicon.svg',
+  ogImage = '/og-image.png',
   ogType = 'website',
   noIndex = false,
   keywords = [],

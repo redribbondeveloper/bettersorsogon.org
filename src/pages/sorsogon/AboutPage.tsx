@@ -304,8 +304,17 @@ const AboutPage: FC = () => {
             Sending a correction
           </p>
           <p className='mt-3 text-[15px] leading-relaxed text-slate-700'>
-            Correction channels will be posted here once the project repository is
-            published.
+            Spotted a wrong number, an outdated official, or a missing office?
+            Email{' '}
+            <a
+              href='mailto:hello@bettersorsogon.org'
+              className='rounded font-medium text-brand-800 transition-colors duration-150 hover:text-brand-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
+            >
+              hello@bettersorsogon.org
+            </a>{' '}
+            with a link to an official source and we will verify and update it.
+            The project repository will also be published for corrections via
+            pull request.
           </p>
         </Card>
       </Section>

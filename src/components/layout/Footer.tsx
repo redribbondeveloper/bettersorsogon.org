@@ -124,7 +124,13 @@ const Footer: FC = () => {
               <span className='font-semibold tabular-nums text-amber-400'>
                 ₱0
               </span>
-              .
+              {' · '}Contact us:{' '}
+              <a
+                href='mailto:hello@bettersorsogon.org'
+                className='rounded text-brand-300 transition-colors duration-150 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950'
+              >
+                hello@bettersorsogon.org
+              </a>
             </p>
             <div className='flex items-center gap-4'>
               <span>&copy; {year} BetterGov Sorsogon</span>
