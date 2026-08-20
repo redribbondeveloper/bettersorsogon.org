@@ -26,7 +26,7 @@ interface SEOProps {
 export default function SEO({
   title,
   description,
-  ogImage = '/logos/jpg/BetterGov_Vertical-White.jpg',
+  ogImage = '/favicon.svg',
   ogType = 'website',
   noIndex = false,
   keywords = [],
@@ -70,7 +70,8 @@ export default function SEO({
 
   const normalizedQuery = normalizeQuery(location.search);
   // Pull static metadata for the current pathname, then layer query overrides or defaults
-  const routeEntry = routeMetaMap[location.pathname] ?? null;
+  const routeEntry =
+    routeMetaMap[location.pathname] ?? routeMetaMap['_default'] ?? null;
 
   const baseMeta = readMeta(routeEntry);
   let routeTitle = baseMeta.title;
@@ -121,9 +122,9 @@ export default function SEO({
 
   // Default values
   const defaultTitle =
-    'BetterGov.ph Philippines | Community Powered Government Portal';
+    'BetterGov Sorsogon — Unofficial community portal for Sorsogon Province';
   const defaultDescription =
-    'Community-powered portal of the Philippines. Access government services, stay updated with the latest news, and find information about the Philippines.';
+    'An unofficial, community-maintained information portal for the Province of Sorsogon, Philippines. Find local government contacts, emergency hotlines, disaster preparedness guidance, services, and tourism information.';
   const defaultCanonical = location.pathname + location.search;
 
   useEffect(() => {
@@ -136,9 +137,9 @@ export default function SEO({
   const finalDescription =
     description || routeDescription || defaultDescription;
 
-  const siteTitle = 'BetterGov.ph';
+  const siteTitle = 'BetterGov Sorsogon';
   const fullTitle = title ? `${title} | ${siteTitle}` : finalTitle;
-  const baseUrl = 'https://bettergov.ph';
+  const baseUrl = 'https://sorsogon.bettergov.ph';
   const fullCanonical = defaultCanonical
     ? `${baseUrl}${defaultCanonical}`
     : undefined;
@@ -191,10 +192,11 @@ export default function SEO({
 
       {/* Government Specific Meta Tags */}
       <meta name='geo.country' content='PH' />
-      <meta name='geo.region' content='PH' />
+      <meta name='geo.region' content='PH-SOR' />
+      <meta name='geo.placename' content='Sorsogon' />
       <meta name='DC.language' content={dcLanguage} />
-      <meta name='DC.creator' content='BetterGov.ph' />
-      <meta name='DC.publisher' content='BetterGov.ph' />
+      <meta name='DC.creator' content='BetterGov Sorsogon' />
+      <meta name='DC.publisher' content='BetterGov Sorsogon' />
 
       {/* Structured Data */}
       {jsonLd && (

@@ -1,0 +1,664 @@
+{
+  "generated": "2026-08-20",
+  "offices": [
+    {
+      "office": "Office of the Provincial Governor",
+      "abbreviation": "OPG",
+      "head": { "name": "Jose Edwin \"Boboy\" B. Hamor", "title": "Provincial Governor" },
+      "phone": ["(056) 211-2121"],
+      "email": "governor@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon 4700",
+      "services": [
+        "Overall executive leadership of the provincial government",
+        "Implements laws, ordinances and development programs",
+        "General supervision over component cities and municipalities",
+        "Signs contracts and represents the province"
+      ],
+      "sources": [
+        "https://sorsogon.gov.ph/about/directory-of-offices/",
+        "https://en.wikipedia.org/wiki/Jose_Edwin_Hamor",
+        "https://www.puertoparrot.com/service/show/sorsogon/sorsogon-city/57182/office-of-the-governor-sorsogon"
+      ],
+      "verification": "cross-checked",
+      "notes": "Gov. Jose Edwin B. Hamor (24th Governor, assumed office 30 June 2022 per Wikipedia; reelected in May 2025 for the term to 2028 per news reports). Trunkline (056) 211-2121 is from a third-party business directory (puertoparrot) and is not confirmed on an official page; verify before publishing."
+    },
+    {
+      "office": "Office of the Vice Governor",
+      "abbreviation": "OVG",
+      "head": { "name": "Krunimar Antonio D. Escudero II", "title": "Vice Governor" },
+      "phone": [],
+      "email": "vicegovernor@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Presiding officer of the Sangguniang Panlalawigan",
+        "Signs legislative documents and warrants",
+        "Succeeds to the governorship in case of vacancy",
+        "Oversees legislative operations"
+      ],
+      "sources": [
+        "https://sorsogon.gov.ph/about/directory-of-offices/",
+        "https://sorsogon.gov.ph/about/legislative/"
+      ],
+      "verification": "cross-checked",
+      "notes": "Also lists alternate email sorsogonovg@gmail.com. Vice Gov. Escudero (\"Jun\"/\"Junjun\") is the current Presiding Officer for the 2025-2028 term per the official legislative page."
+    },
+    {
+      "office": "Sangguniang Panlalawigan (Provincial Board)",
+      "abbreviation": "SP",
+      "head": { "name": "Krunimar Antonio D. Escudero II", "title": "Presiding Officer (Vice Governor)" },
+      "phone": [],
+      "email": "sp@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Enacts provincial ordinances and resolutions",
+        "Approves the annual provincial budget",
+        "Reviews component city/municipal ordinances and budgets",
+        "Legislative oversight of provincial affairs"
+      ],
+      "sources": [
+        "https://sorsogon.gov.ph/about/legislative/",
+        "https://sorsogon.gov.ph/about/directory-of-offices/"
+      ],
+      "verification": "cross-checked",
+      "notes": "Board members (term 2025-2028), per official legislative page. 1st District: John Ryan C. Dioneda, Maria \"Nini\" O. Ravanilla, Ralph Walter R. Lubiano, Edmundo A. Atutubo, Rommel John C. Mella. 2nd District: Ramil M. Robles, Benito L. Doma, Rolando R. Anonuevo, Eduardo E. Ong Jr. Ex-officio: Ramon B. Escudero (PCL), Jose Arturo D. Enano (Liga ng mga Barangay), Karl Marx H. Lozada (SK Federation)."
+    },
+    {
+      "office": "Office of the Secretary to the Sangguniang Panlalawigan",
+      "abbreviation": null,
+      "head": null,
+      "phone": [],
+      "email": "sp_secretary@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Keeps records of SP proceedings and legislation",
+        "Prepares agenda, minutes and journals",
+        "Attests ordinances and resolutions",
+        "Custodian of legislative documents"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Office of the Provincial Administrator",
+      "abbreviation": "OPA",
+      "head": null,
+      "phone": [],
+      "email": "prov_admin@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Assists the Governor in administrative and management functions",
+        "Coordinates the work of provincial offices",
+        "Develops management systems and plans",
+        "Oversees day-to-day provincial operations"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source",
+      "notes": "Also lists alternate email opa.sorsogon@gmail.com. Franco Eric Ravanilla was reported as Provincial Administrator in 2024 (web-search summary only, not confirmed via a fetched page for the current term); head left null pending verification."
+    },
+    {
+      "office": "Provincial Planning and Development Office",
+      "abbreviation": "PPDO",
+      "head": null,
+      "phone": [],
+      "email": "ppdo@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Formulates integrated economic, social and physical development plans",
+        "Conducts development research and studies",
+        "Monitors and evaluates program implementation",
+        "Secretariat to the Provincial Development Council"
+      ],
+      "sources": [
+        "https://sorsogon.gov.ph/about/directory-of-offices/",
+        "https://sorsogon.gov.ph/provincial-planning-and-development-office/"
+      ],
+      "verification": "cross-checked",
+      "notes": "Head of office is the Provincial Planning and Development Coordinator (PPDC); name not published on the official pages reviewed."
+    },
+    {
+      "office": "Office of the Provincial Treasurer",
+      "abbreviation": "PTO",
+      "head": null,
+      "phone": [],
+      "email": "treasurer@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Collects provincial taxes, fees and charges",
+        "Custody and disbursement of provincial funds",
+        "Manages provincial cash and revenues",
+        "Oversees real property tax collection"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source",
+      "notes": "Also lists alternate email ptosorsogon@gmail.com."
+    },
+    {
+      "office": "Office of the Provincial Assessor",
+      "abbreviation": null,
+      "head": null,
+      "phone": [],
+      "email": "assessors@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Appraises and assesses real property for taxation",
+        "Maintains the assessment roll and tax maps",
+        "Issues property assessment records",
+        "Conducts general revision of property values"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Provincial Accountant's Office",
+      "abbreviation": "PACCO",
+      "head": null,
+      "phone": [],
+      "email": "pacco@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Maintains provincial accounting records",
+        "Certifies availability of funds",
+        "Prepares financial statements and reports",
+        "Processes disbursement vouchers and payroll"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Provincial Budget Office",
+      "abbreviation": "PBO",
+      "head": null,
+      "phone": [],
+      "email": "pbo@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Prepares the annual provincial budget",
+        "Reviews budgets of component LGUs",
+        "Monitors budget execution and utilization",
+        "Provides technical assistance on budgeting"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Office of the Provincial Engineer",
+      "abbreviation": "PEO",
+      "head": null,
+      "phone": [],
+      "email": "engineer@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Implements provincial infrastructure and public works",
+        "Supervises roads, bridges and buildings projects",
+        "Provides engineering design and construction supervision",
+        "Maintains provincial infrastructure"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Provincial General Services Office",
+      "abbreviation": "PGSO",
+      "head": null,
+      "phone": [],
+      "email": "pgso@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Manages procurement and supply of provincial assets",
+        "Custody and maintenance of government property",
+        "Records and inventory of supplies and equipment",
+        "Manages provincial motor pool and facilities"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Office of the Provincial Legal Officer",
+      "abbreviation": "PLO",
+      "head": null,
+      "phone": [],
+      "email": "prov_legal@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Provides legal advice to the Governor and offices",
+        "Represents the province in legal matters",
+        "Drafts and reviews contracts and ordinances",
+        "Handles administrative and civil cases"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Provincial Human Resource Management Office",
+      "abbreviation": "PHRMO",
+      "head": null,
+      "phone": [],
+      "email": "prov_hrmo@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Recruitment, appointment and personnel records",
+        "Employee benefits and payroll administration",
+        "Human resource development and training",
+        "Performance management and personnel welfare"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Sorsogon Provincial Information Office",
+      "abbreviation": "PIO",
+      "head": null,
+      "phone": [],
+      "email": "pio@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Public information and media relations",
+        "Disseminates provincial news and advisories",
+        "Manages official communications and publications",
+        "Documents provincial events and programs"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Information and Communication Technology Division",
+      "abbreviation": "ICT",
+      "head": null,
+      "phone": [],
+      "email": "ict_division@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Manages the province's information systems",
+        "Maintains network and computer infrastructure",
+        "Technical support to provincial offices",
+        "Website and digital services support"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Provincial Internal Audit Unit",
+      "abbreviation": "PIAU",
+      "head": null,
+      "phone": [],
+      "email": "piau@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Independent appraisal of internal controls",
+        "Audits operations and financial transactions",
+        "Recommends management improvements",
+        "Ensures compliance with policies and laws"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Sorsogon Provincial Disaster Risk Reduction and Management Office",
+      "abbreviation": "SPDRRMO",
+      "head": null,
+      "phone": ["(+63) 919-080-5985"],
+      "email": "spdrrm@sorsogon.gov.ph",
+      "location": "Flores St., Brgy. Burabod, Sorsogon City, Sorsogon 4700",
+      "services": [
+        "Disaster preparedness, response and mitigation",
+        "Operates the emergency operations center",
+        "Early warning and hazard monitoring",
+        "Coordinates rescue and relief operations"
+      ],
+      "sources": [
+        "https://sorsogon.gov.ph/about/directory-of-offices/",
+        "https://spdrrmo.org/contact/"
+      ],
+      "verification": "cross-checked",
+      "notes": "Directory lists address as Flores St., Brgy. Burabod; the office's own site (spdrrmo.org) gives \"SPDRRMO Building, Arnedo Street, Capitol Compound, Sorsogon City.\" Official website: spdrrmo.org (a.k.a. spdrrmo.org.ph)."
+    },
+    {
+      "office": "Provincial Health Office",
+      "abbreviation": "PHO",
+      "head": { "name": "Renato B. Bolo, Jr., MD", "title": "Acting Provincial Health Officer / Provincial Government Department Head" },
+      "phone": [],
+      "email": "pho@sorsogon.gov.ph",
+      "location": "Barangay Macabog, Diversion Road, Sorsogon City, Sorsogon",
+      "services": [
+        "Provincial public health administration",
+        "Oversees provincial and district/municipal hospitals",
+        "Disease prevention and public health programs",
+        "Field health and technical services"
+      ],
+      "sources": [
+        "https://sorsogon.gov.ph/about/directory-of-offices/",
+        "https://sorsogon.gov.ph/health-services/leadership-team/"
+      ],
+      "verification": "cross-checked",
+      "notes": "Also lists alternate email phosortech@sorsogon.gov.ph. Asst. PHO (Field Health Services): Maria Priscilla C. Fajardo, MD, MPH; Asst. PHO (Hospital Services): Roberto A. Chacon, Jr., MD."
+    },
+    {
+      "office": "Office of the Provincial Social Welfare and Development",
+      "abbreviation": "PSWDO",
+      "head": { "name": "Mary Grace A. Rodrigueza", "title": "Provincial Social Welfare and Development Officer" },
+      "phone": [],
+      "email": "pswdo@sorsogon.gov.ph",
+      "location": "Tabang Center, Flores St., Brgy. Burabod, Sorsogon City, Sorsogon",
+      "services": [
+        "Social welfare and protection programs",
+        "Assistance to disadvantaged individuals and families",
+        "Community development and relief services",
+        "Programs for children, women, PWDs and senior citizens"
+      ],
+      "sources": [
+        "https://sorsogon.gov.ph/about/directory-of-offices/",
+        "https://region5.dilg.gov.ph/sorsogon/"
+      ],
+      "verification": "cross-checked",
+      "notes": "Head name (Mary Grace A. Rodrigueza, identified as PSWDO) is from the DILG Region 5 Sorsogon page only; confirm via provincial source before publishing."
+    },
+    {
+      "office": "Office of the Provincial Agriculturist",
+      "abbreviation": "OPAg",
+      "head": null,
+      "phone": [],
+      "email": "agriculturist@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Agricultural extension and technical services",
+        "Crop, livestock and fisheries development",
+        "Farm inputs and productivity programs",
+        "Support to farmers and cooperatives"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Office of the Provincial Veterinarian",
+      "abbreviation": null,
+      "head": null,
+      "phone": [],
+      "email": "prov_vet@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Animal health and disease control",
+        "Livestock and poultry development",
+        "Rabies control and vaccination programs",
+        "Meat inspection and veterinary services"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Provincial Environment and Natural Resources Office",
+      "abbreviation": "PENRO",
+      "head": null,
+      "phone": [],
+      "email": "penro@sorsogon.gov.ph",
+      "location": "Capitol Compound, Brgy. Burabod, Sorsogon City, Sorsogon",
+      "services": [
+        "Environmental protection and management",
+        "Natural resources conservation programs",
+        "Solid waste and pollution management support",
+        "Reforestation and coastal resource programs"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source",
+      "notes": "This is the provincial LGU's ENRO; distinct from the DENR's national PENRO/CENRO offices."
+    },
+    {
+      "office": "Office of the Provincial Cooperative",
+      "abbreviation": null,
+      "head": null,
+      "phone": [],
+      "email": "prov.cooperativesor@gmail.com",
+      "location": "Old DILG Bldg., Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Registration and development of cooperatives",
+        "Technical assistance and training to cooperatives",
+        "Monitors cooperative operations",
+        "Promotes cooperative enterprises"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source",
+      "notes": "Directory lists only a Gmail address for this office."
+    },
+    {
+      "office": "Provincial Tourism, Culture and Arts Office",
+      "abbreviation": null,
+      "head": null,
+      "phone": [],
+      "email": "tourism@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Tourism promotion and development",
+        "Cultural heritage and arts programs",
+        "Support to local festivals and events",
+        "Tourist assistance and information"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Museo Sorsogon",
+      "abbreviation": null,
+      "head": null,
+      "phone": [],
+      "email": "museo@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Provincial museum and heritage exhibits",
+        "Preservation of historical artifacts",
+        "Cultural and educational programs",
+        "Public exhibitions and tours"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Provincial Library and Information Center",
+      "abbreviation": null,
+      "head": null,
+      "phone": [],
+      "email": "prov_library@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Provincial public library services",
+        "Information and reference resources",
+        "Reading and literacy programs",
+        "Research assistance to the public"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Public Employment Service Office",
+      "abbreviation": "PESO",
+      "head": null,
+      "phone": [],
+      "email": "prov_peso@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Public employment facilitation and referral",
+        "Job fairs and labor market information",
+        "Livelihood and skills programs",
+        "Assistance to jobseekers and OFWs"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Provincial Nutrition Office / Council",
+      "abbreviation": null,
+      "head": null,
+      "phone": [],
+      "email": "prov_nutrition@sorsogon.gov.ph",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Coordinates provincial nutrition programs",
+        "Monitors nutritional status of communities",
+        "Implements feeding and nutrition education",
+        "Supports Barangay Nutrition Scholars"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Bids and Awards Committee Secretariat",
+      "abbreviation": "BAC",
+      "head": null,
+      "phone": [],
+      "email": "pbacsec.sorsogon@gmail.com",
+      "location": "Capitol Compound, Sorsogon City, Sorsogon",
+      "services": [
+        "Supports the Bids and Awards Committee",
+        "Manages procurement documentation",
+        "Posts bid opportunities and notices",
+        "Administers public bidding processes"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source",
+      "notes": "Directory lists only a Gmail address for the BAC Secretariat."
+    },
+    {
+      "office": "Sorsogon Provincial Hospital",
+      "abbreviation": "SPH",
+      "head": null,
+      "phone": ["0921-351-4777", "0921-535-8406"],
+      "email": "sph@sorsogon.gov.ph",
+      "location": "Barangay Macabog, Diversion Road, Sorsogon City, Sorsogon",
+      "services": [
+        "Provincial-level in-patient and out-patient care",
+        "Emergency, surgical and diagnostic services",
+        "Referral hospital for district/municipal hospitals"
+      ],
+      "sources": [
+        "https://sorsogon.gov.ph/about/directory-of-offices/",
+        "https://healthspace.ph/facility/sorsogon-provincial-hospital-FCD01098"
+      ],
+      "verification": "single-source",
+      "notes": "Phone numbers are from a third-party health-facility directory (healthspace.ph), not an official page; verify before publishing. Official FB page: facebook.com/sphcares."
+    },
+    {
+      "office": "Bulan Medicare Hospital",
+      "abbreviation": "BMH",
+      "head": null,
+      "phone": [],
+      "email": "bmh@sorsogon.gov.ph",
+      "location": "Bulan, Sorsogon",
+      "services": [
+        "In-patient and out-patient medical services",
+        "Emergency care",
+        "Community health services"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Castilla District Hospital",
+      "abbreviation": "CDH",
+      "head": null,
+      "phone": [],
+      "email": "cdh@sorsogon.gov.ph",
+      "location": "Castilla, Sorsogon",
+      "services": [
+        "In-patient and out-patient medical services",
+        "Emergency care",
+        "Community health services"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Donsol District Hospital",
+      "abbreviation": "DDH",
+      "head": { "name": "Sherwin P. Amisola, MD", "title": "Chief of Hospital" },
+      "phone": [],
+      "email": "ddh@sorsogon.gov.ph",
+      "location": "Donsol, Sorsogon",
+      "services": [
+        "In-patient and out-patient medical services",
+        "Emergency care",
+        "Community health services"
+      ],
+      "sources": [
+        "https://sorsogon.gov.ph/about/directory-of-offices/",
+        "https://sorsogon.gov.ph/health-services/leadership-team/"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "office": "Gubat District Hospital",
+      "abbreviation": "GDH",
+      "head": null,
+      "phone": [],
+      "email": "gdh@sorsogon.gov.ph",
+      "location": "Gubat, Sorsogon",
+      "services": [
+        "In-patient and out-patient medical services",
+        "Emergency care",
+        "Community health services"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Irosin District Hospital",
+      "abbreviation": "IDH",
+      "head": { "name": "Ludovic G. Tan, MD", "title": "Chief of Hospital" },
+      "phone": [],
+      "email": "idh@sorsogon.gov.ph",
+      "location": "Irosin, Sorsogon",
+      "services": [
+        "In-patient and out-patient medical services",
+        "Emergency care",
+        "Community health services"
+      ],
+      "sources": [
+        "https://sorsogon.gov.ph/about/directory-of-offices/",
+        "https://sorsogon.gov.ph/health-services/leadership-team/"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "office": "Magallanes Medicare Hospital",
+      "abbreviation": "MgMH",
+      "head": null,
+      "phone": [],
+      "email": "mgmh@sorsogon.gov.ph",
+      "location": "Magallanes, Sorsogon",
+      "services": [
+        "In-patient and out-patient medical services",
+        "Emergency care",
+        "Community health services"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Matnog Medicare Hospital",
+      "abbreviation": "MtMH",
+      "head": null,
+      "phone": [],
+      "email": "mtmh@sorsogon.gov.ph",
+      "location": "Matnog, Sorsogon",
+      "services": [
+        "In-patient and out-patient medical services",
+        "Emergency care",
+        "Community health services"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    },
+    {
+      "office": "Prieto Diaz Medicare Hospital",
+      "abbreviation": "PMH",
+      "head": null,
+      "phone": [],
+      "email": "pmh@sorsogon.gov.ph",
+      "location": "Prieto Diaz, Sorsogon",
+      "services": [
+        "In-patient and out-patient medical services",
+        "Emergency care",
+        "Community health services"
+      ],
+      "sources": ["https://sorsogon.gov.ph/about/directory-of-offices/"],
+      "verification": "single-source"
+    }
+  ]
+}

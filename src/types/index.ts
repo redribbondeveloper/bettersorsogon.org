@@ -13,44 +13,6 @@ export type LanguageType =
   | 'tsg' // Tausug
   | 'war'; // Waray
 
-export interface Country {
-  name: string;
-  code: string;
-  flag: string;
-  visaRequired: boolean;
-  duration?: string;
-  specialConditions?: string[];
-  requiredDocuments?: string[];
-  note?: string;
-}
-
-export interface VisaCategory {
-  title: string;
-  description: string;
-  visaTypes: VisaType[];
-}
-
-export interface VisaType {
-  name: string;
-  description: string;
-  duration: string;
-  requirements: string[];
-}
-
-export interface ConstitutionalOffice {
-  title: string;
-  description: string;
-  slug: string;
-  icon: string;
-}
-
-export interface GovernmentBranch {
-  title: string;
-  description: string;
-  icon: string;
-  offices: ConstitutionalOffice[];
-}
-
 export interface NavigationItem {
   label: string;
   href: string;
@@ -158,24 +120,3 @@ export interface ForexRate {
   code: string;
   rate: number;
 }
-
-export interface Project {
-  slug: string;
-  title: string;
-  description: string;
-  repositoryUrls: string[];
-  projectUrl: string;
-  status: 'active' | 'development' | 'archived';
-  repoType: 'orgprojects' | 'community';
-  category:
-    | 'law'
-    | 'money'
-    | 'data'
-    | 'election'
-    | 'health'
-    | 'infrastructure'
-    | 'other';
-  imageUrl?: string;
-}
-
-export type Tab = 'active' | 'development' | 'archived';

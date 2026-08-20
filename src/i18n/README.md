@@ -1,4 +1,4 @@
-# Translations for BetterGov.ph
+# Translations for BetterGov Sorsogon
 
 ## How it works
 
@@ -20,14 +20,13 @@ Translation files live in `public/locales/`:
 To organize translations better the concept of namespacing is used
 
 - `common.json` - Navigation, buttons, shared text
-- `visa.json` - Visa information pages
 - `about.json` - About page
 
 ## For translators
 
 ### Adding translations to existing pages
 
-1. Find the page file (like `visa.json`)
+1. Find the page file (like `about.json`)
 2. Edit the English version (required)
 3. Add translations to your language
 
@@ -38,13 +37,13 @@ Example:
 ```json5
 // English
 {
-  "title": "Visa Information",
+  "title": "About",
   "steps": ["Step 1", "Step 2", "Step 3"]
 }
 
 // Filipino
 {
-  "title": "Impormasyon sa Visa",
+  "title": "Tungkol sa",
   "steps": ["Hakbang 1", "Hakbang 2", "Hakbang 3"]
 }
 ```

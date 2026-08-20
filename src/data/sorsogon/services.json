@@ -1,0 +1,444 @@
+{
+  "generated": "2026-08-20",
+  "verified_at": "2026-08-20",
+  "services": [
+    {
+      "service": "PSA Birth Certificate",
+      "slug": "psa-birth-certificate",
+      "category": { "name": "Certificates & IDs", "slug": "certificates-ids" },
+      "description": "Certified copy of your PSA (formerly NSO) birth certificate on security paper, needed for enrollment, employment, passport, and benefits. Order online via PSA Serbilis or PSAHelpline for courier delivery anywhere in Sorsogon. For over-the-counter (walk-in) requests, note there is no PSA Census Serbilis center in Sorsogon province; the nearest walk-in Census Serbilis Center is in Legazpi City, Albay. The PSA Sorsogon Provincial Statistical Office (below) is the province's PSA field office.",
+      "url": "https://psaserbilis.com.ph",
+      "local_office": {
+        "name": "PSA Sorsogon Provincial Statistical Office",
+        "address": "3rd Floor, Peña Building, Rizal corner Burgos Streets, Barangay Burabod, Sorsogon City, Sorsogon 4700",
+        "phone": null
+      },
+      "sources": [
+        "https://psa.gov.ph/birth-certificate",
+        "https://psaserbilis.com.ph/Census/BirthDetail",
+        "https://psahelpline.ph/psa-near-me",
+        "https://www.efrennolasco.com/psa-field-offices-and-census-serbilis-centers-directory/"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "service": "PSA Marriage Certificate",
+      "slug": "psa-marriage-certificate",
+      "category": { "name": "Certificates & IDs", "slug": "certificates-ids" },
+      "description": "Certified copy of a PSA marriage certificate for spousal benefits, visa, or legal use. Order online through PSA Serbilis or PSAHelpline with delivery to Sorsogon. For walk-in requests, there is no PSA Census Serbilis center in Sorsogon province; the nearest Census Serbilis Center is in Legazpi City, Albay. The PSA Sorsogon Provincial Statistical Office (below) is the province's PSA field office.",
+      "url": "https://psaserbilis.com.ph",
+      "local_office": {
+        "name": "PSA Sorsogon Provincial Statistical Office",
+        "address": "3rd Floor, Peña Building, Rizal corner Burgos Streets, Barangay Burabod, Sorsogon City, Sorsogon 4700",
+        "phone": null
+      },
+      "sources": [
+        "https://psa.gov.ph/civilregistration",
+        "https://psaserbilis.com.ph",
+        "https://psahelpline.ph/psa-near-me",
+        "https://www.efrennolasco.com/psa-field-offices-and-census-serbilis-centers-directory/"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "service": "PSA CENOMAR (Certificate of No Marriage Record)",
+      "slug": "psa-cenomar",
+      "category": { "name": "Certificates & IDs", "slug": "certificates-ids" },
+      "description": "A PSA CENOMAR certifies you have no existing marriage record; commonly required before a wedding or for some visa applications. Order online via PSA Serbilis or PSAHelpline for delivery to Sorsogon, or get it over the counter at a Census Serbilis Center — the nearest is in Legazpi City, Albay (there is none in Sorsogon province).",
+      "url": "https://psaserbilis.com.ph",
+      "local_office": {
+        "name": "PSA Region V (Bicol) Census Serbilis Center, Legazpi",
+        "address": "2nd Floor, Albay Capitol Annex Building, Old Albay District, Legazpi City, Albay 4500",
+        "phone": "(052) 480-1568"
+      },
+      "sources": [
+        "https://psaserbilis.com.ph",
+        "https://psahelpline.ph/",
+        "https://www.efrennolasco.com/psa-field-offices-and-census-serbilis-centers-directory/"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "service": "Local Civil Registration (Birth, Marriage, Death)",
+      "slug": "local-civil-registration",
+      "category": { "name": "Certificates & IDs", "slug": "certificates-ids" },
+      "description": "Register a birth, marriage, or death event, request local civil registry copies, or file corrections (RA 9048/10172) at the Local Civil Registrar of the city/municipality where the event happened. Sorsogon City residents go to the City Civil Registrar; each of Sorsogon's 14 municipalities has its own Municipal Civil Registrar. Registered events are later endorsed to PSA.",
+      "url": null,
+      "local_office": {
+        "name": "Sorsogon City Civil Registrar's Office",
+        "address": "Sorsogon City Hall, Sorsogon City, Sorsogon 4700",
+        "phone": "0916-346-0291"
+      },
+      "sources": [
+        "https://sorsogoncity.gov.ph/directory/",
+        "https://nsosorsogon.webnode.page/local-civil-registrar/",
+        "https://www.castillasorsogon.gov.ph/wp-content/uploads/2023/09/MCR.pdf"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "service": "Philippine Passport (New / Renewal)",
+      "slug": "philippine-passport",
+      "category": { "name": "Certificates & IDs", "slug": "certificates-ids" },
+      "description": "Apply for or renew a Philippine passport by booking an online appointment through the DFA system, then appearing in person with your requirements. The DFA Regional Consular Office serving Sorsogon is in Legazpi City, the nearest office to the province.",
+      "url": "https://passport.gov.ph",
+      "local_office": {
+        "name": "DFA Regional Consular Office – Legazpi",
+        "address": "3rd Floor, Pacific Mall Legazpi, F. Imperial Street corner Circumferential Road, Barangay Capantawan, Landco Business Park, Legazpi City, Albay 4500",
+        "phone": "(052) 480-3000"
+      },
+      "sources": [
+        "https://passport.gov.ph/",
+        "https://consular.dfa.gov.ph/directory-co/",
+        "https://dfaappointment.org/dfa-branches-philippines-passport/",
+        "https://philippinescities.com/legazpi-city/directory/government-directory/dfa-legazpi-city/"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "service": "NBI Clearance",
+      "slug": "nbi-clearance",
+      "category": { "name": "Certificates & IDs", "slug": "certificates-ids" },
+      "description": "National Bureau of Investigation clearance for employment, travel, or licensing. Register and book an appointment online, pay, then appear for biometrics. Sorsogon has an NBI Satellite Office reported at City Mall in Sorsogon City; the NBI Legazpi District Office is the nearest larger center. The satellite office's exact location and hours come from third-party listings — confirm with the NBI Legazpi office before visiting.",
+      "url": "https://clearance.nbi.gov.ph",
+      "local_office": {
+        "name": "NBI Sorsogon Satellite Office (City Mall Sorsogon)",
+        "address": "City Mall, Rizal Street, Barangay Poblacion, Sorsogon City, Sorsogon (location per third-party listings; confirm before visiting)",
+        "phone": null
+      },
+      "sources": [
+        "https://clearance.nbi.gov.ph",
+        "https://www.facebook.com/nbilegazpicity",
+        "https://thepinoyofw.com/nbi-clearance-branches/",
+        "https://nbiclearancesonline.ph/nbi-clearance-centers-locations-contact-and-operating-hours/"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "service": "National Police Clearance",
+      "slug": "national-police-clearance",
+      "category": { "name": "Certificates & IDs", "slug": "certificates-ids" },
+      "description": "PNP National Police Clearance for employment or local requirements. Register on the online NPCS portal, pay the 150-peso fee via LandBank, then appear at your chosen police station (e.g., Sorsogon City Police Station) for biometrics and release. Cash-on-site payment is not accepted.",
+      "url": "https://pnpclearance.ph",
+      "local_office": {
+        "name": "Sorsogon City Police Station (appointment station; availability varies)",
+        "address": "Sorsogon City, Sorsogon",
+        "phone": null
+      },
+      "sources": [
+        "https://pnpclearance.ph/",
+        "https://policeclearanceph.ph/"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "service": "Postal ID",
+      "slug": "postal-id",
+      "category": { "name": "Certificates & IDs", "slug": "certificates-ids" },
+      "description": "The PVC Improved Postal ID is a widely accepted valid government ID. Apply in person at a PHLPost capturing post office with proof of identity and address; in Sorsogon, the Sorsogon City Post Office accepts applications. Call ahead to confirm the branch has working biometric capture.",
+      "url": "https://phlpost.gov.ph",
+      "local_office": {
+        "name": "Sorsogon City Post Office (PHLPost)",
+        "address": "Capitol Compound, B. Flores Street, Sorsogon City, Sorsogon 4700",
+        "phone": null
+      },
+      "sources": [
+        "https://phlpost.gov.ph/",
+        "https://phlpost.gov.ph/news_and_updates/postal-id-application-form/",
+        "https://www.businesslist.ph/company/124784/philpost-sorsogon-city-post-office"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "service": "Voter Registration (COMELEC)",
+      "slug": "voter-registration",
+      "category": { "name": "Certificates & IDs", "slug": "certificates-ids" },
+      "description": "Register as a new voter, or transfer/reactivate/correct records, at the COMELEC Office of the Election Officer (OEO) in your own city or municipality; biometrics are captured in person there. Use the COMELEC iRehistro form generator online to pre-fill the application. The Sorsogon Provincial office coordinates province-wide and satellite registration but you file at your local OEO.",
+      "url": "https://comelec.gov.ph",
+      "local_office": {
+        "name": "COMELEC Sorsogon Provincial Office",
+        "address": "2nd Floor, COMELEC Building, City Hall Complex, Barangay Cabid-an, Sorsogon City, Sorsogon (email: comelec_sorsogon@yahoo.com.ph)",
+        "phone": null
+      },
+      "sources": [
+        "https://comelec.gov.ph/",
+        "https://www.facebook.com/comelecsorsogonprovince/",
+        "https://sorsu.edu.ph/comelec-sorsogon-provincial-office-sorsu-holds-one-day-province-wide-voter-registration/",
+        "https://www.pna.gov.ph/articles/1178464"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "service": "Driver's License (LTO)",
+      "slug": "drivers-license",
+      "category": { "name": "Transport & Vehicles", "slug": "transport" },
+      "description": "Apply for a student permit, new non-professional/professional license, or renewal through the Land Transportation Office. Create an account in the LTMS online portal, then complete the medical exam, written/practical tests, and biometrics at the LTO Sorsogon District Office in Sorsogon City.",
+      "url": "https://portal.lto.gov.ph",
+      "local_office": {
+        "name": "LTO Sorsogon District Office",
+        "address": "Diversion Road, Barangay Cabid-an, Sorsogon City, Sorsogon 4700 (email: ltosorsogon@gmail.com)",
+        "phone": "0916-733-0237"
+      },
+      "sources": [
+        "https://portal.lto.gov.ph",
+        "https://ltoportal.ph/lto-sorsogon-office/",
+        "https://www.facebook.com/p/LTO-Sorsogon-District-Office-61561458492362/"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "service": "Motor Vehicle Registration (LTO)",
+      "slug": "motor-vehicle-registration",
+      "category": { "name": "Transport & Vehicles", "slug": "transport" },
+      "description": "Register a newly purchased motor vehicle or renew your annual MV registration (with emission test, CTPL insurance, and inspection) at the LTO Sorsogon District Office. Renewal month follows your plate's ending digit. Transactions and status are managed through the LTMS portal.",
+      "url": "https://portal.lto.gov.ph",
+      "local_office": {
+        "name": "LTO Sorsogon District Office",
+        "address": "Diversion Road, Barangay Cabid-an, Sorsogon City, Sorsogon 4700 (email: ltosorsogon@gmail.com)",
+        "phone": "0916-733-0237"
+      },
+      "sources": [
+        "https://portal.lto.gov.ph",
+        "https://ltoportal.ph/lto-sorsogon-office/"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "service": "Business Permit (Mayor's Permit)",
+      "slug": "business-permit",
+      "category": { "name": "Business & Trade", "slug": "business-trade" },
+      "description": "Every business needs an annual Mayor's/Business Permit from the Business Permits and Licensing Office (BPLO) of the LGU where it operates. In the city, file at the Sorsogon City BPLO; each of Sorsogon's 14 municipalities has its own BPLO. Renew every January to avoid penalties.",
+      "url": "https://sorsogoncity.gov.ph",
+      "local_office": {
+        "name": "Sorsogon City Business Permit and Licensing Office (Permits and Licensing)",
+        "address": "Sorsogon City Hall, Sorsogon City, Sorsogon 4700",
+        "phone": "0992-649-3615"
+      },
+      "sources": [
+        "https://sorsogoncity.gov.ph/",
+        "https://sorsogoncity.gov.ph/directory/",
+        "https://sorsogoncity.gov.ph/wp-content/uploads/2023/11/Sorsogon-City-Citizens-Charter-2nd-Edition.pdf"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "service": "DTI Business Name Registration",
+      "slug": "dti-business-name-registration",
+      "category": { "name": "Business & Trade", "slug": "business-trade" },
+      "description": "Sole proprietors register their business name with the Department of Trade and Industry before applying for a Mayor's Permit. Register and pay online via DTI's BNRS portal, or get assistance at the DTI Sorsogon Provincial Office or a Negosyo Center.",
+      "url": "https://bnrs.dti.gov.ph",
+      "local_office": {
+        "name": "DTI Sorsogon Provincial Office",
+        "address": "2nd Floor, Clemente Building, Rizal Street, Piot, Sorsogon City, Sorsogon 4700 (email: R05.Sorsogon@dti.gov.ph)",
+        "phone": "(056) 211-1475 / (056) 421-5553"
+      },
+      "sources": [
+        "https://bnrs.dti.gov.ph/",
+        "https://www.dti.gov.ph/dti-business-center/dti-business-registration-permits",
+        "https://pinoytownhall.com/city/masbate/listing/dti-sorsogon-provincial-office/",
+        "https://dtiwebfiles.s3.ap-southeast-1.amazonaws.com/Directory/17+Jan+2025+DTI+Directory+of+Key+Officials.pdf"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "service": "BIR TIN and Tax Registration",
+      "slug": "bir-tin-tax-registration",
+      "category": { "name": "Business & Trade", "slug": "business-trade" },
+      "description": "Get a Taxpayer Identification Number (TIN) and register as an individual or business taxpayer online through BIR's ORUS, or at your Revenue District Office. Sorsogon province is served by BIR Revenue District Office No. 68 – Sorsogon City (Revenue Region 10, Legazpi City).",
+      "url": "https://orus.bir.gov.ph",
+      "local_office": {
+        "name": "BIR Revenue District Office No. 68 – Sorsogon",
+        "address": "BIR Building, City Hall Compound, Barangay Cabid-an, Sorsogon City, Sorsogon 4700 (email: rdo_68@bir.gov.ph)",
+        "phone": "0975-430-6599 / 0998-270-9129"
+      },
+      "sources": [
+        "https://orus.bir.gov.ph",
+        "https://whereisit.altervista.org/revenue-district-office-no-68-sorsogon-city-sorsogon/",
+        "https://www.facebook.com/birgovph.rdo068/",
+        "https://filipiknow.net/rdo-code-sorsogon/"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "service": "Real Property Tax (Amilyar)",
+      "slug": "real-property-tax",
+      "category": { "name": "Business & Trade", "slug": "business-trade" },
+      "description": "Owners pay annual real property tax (amilyar) to the treasurer of the LGU where the land or building is located; paying in full early in the year usually earns a discount. Sorsogon City offers online application and payment for Real Property Tax through its website; in other towns, pay at the Municipal Treasurer's Office.",
+      "url": "https://sorsogoncity.gov.ph",
+      "local_office": {
+        "name": "Sorsogon City Treasurer's Office",
+        "address": "Sorsogon City Hall, Sorsogon City, Sorsogon 4700",
+        "phone": null
+      },
+      "sources": [
+        "https://sorsogoncity.gov.ph/",
+        "https://sorsogoncity.gov.ph/directory/",
+        "https://sorsogoncity.gov.ph/wp-content/uploads/2023/11/Sorsogon-City-Citizens-Charter-2nd-Edition.pdf"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "service": "PhilHealth Membership and Benefits",
+      "slug": "philhealth-membership",
+      "category": { "name": "Health & Social Services", "slug": "health-social" },
+      "description": "Register for PhilHealth national health insurance, update your Member Data Record, pay contributions, and access benefits (including Konsulta primary care). Transact online via the PhilHealth Member Portal or at the PhilHealth Local Health Insurance Office (LHIO) in Sorsogon City. The LHIO's landline routes through the PhilHealth Region V (Legazpi) trunk, so it carries a (052) area code.",
+      "url": "https://www.philhealth.gov.ph",
+      "local_office": {
+        "name": "PhilHealth LHIO Sorsogon",
+        "address": "SORCOM Building, Burgos Street, Barangay Talisay, Sorsogon City, Sorsogon 4700 (email: sorsogon.pro5@philhealth.gov.ph)",
+        "phone": "(052) 820-5368"
+      },
+      "sources": [
+        "https://www.philhealth.gov.ph/about_us/directory/",
+        "https://www.facebook.com/p/PhilHealth-LHIO-Sorsogon-100067584490111/",
+        "https://www.businesslist.ph/company/121447/philhealth-sorsogon-service-office"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "service": "SSS Membership and Benefits",
+      "slug": "sss-membership",
+      "category": { "name": "Health & Social Services", "slug": "health-social" },
+      "description": "The Social Security System covers private-sector employees, self-employed, voluntary members, and OFWs for pensions, sickness, maternity, and loans. Register and transact through the My.SSS online portal or at the SSS Sorsogon Branch in Sorsogon City.",
+      "url": "https://www.sss.gov.ph",
+      "local_office": {
+        "name": "SSS Sorsogon Branch",
+        "address": "Jomil Enterprises Building, Quezon Street, Polvorista, Sorsogon City, Sorsogon 4700",
+        "phone": "(056) 211-2977 / (056) 211-1638"
+      },
+      "sources": [
+        "https://www.sss.gov.ph/",
+        "http://www.sssphilippinesonline.info/branch-address/sss-sorsogon/",
+        "http://sss-philippinesonline.blogspot.com/2012/01/sss-sorsogon-branch-and-office-hotline.html"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "service": "GSIS Membership and Benefits (Government Employees)",
+      "slug": "gsis-membership",
+      "category": { "name": "Health & Social Services", "slug": "health-social" },
+      "description": "GSIS provides life insurance, loans, retirement, and pensions for government workers. Members in Sorsogon are served by the GSIS Sorsogon Branch; many transactions can also be done via the GSIS Touch mobile app and eGSISMO.",
+      "url": "https://www.gsis.gov.ph",
+      "local_office": {
+        "name": "GSIS Sorsogon Branch Office",
+        "address": "Flores Street, Capitol Compound, Sorsogon City, Sorsogon 4700",
+        "phone": "(056) 421-5279"
+      },
+      "sources": [
+        "https://www.gsis.gov.ph/",
+        "https://www.pna.gov.ph/articles/1091857",
+        "http://phgovdirectory.blogspot.com/2014/04/government-service-insurance-system-gsis-branch-offices-directory.html"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "service": "Pag-IBIG Fund (HDMF) Membership and Loans",
+      "slug": "pag-ibig-membership",
+      "category": { "name": "Health & Social Services", "slug": "health-social" },
+      "description": "Pag-IBIG (Home Development Mutual Fund) offers mandatory/voluntary savings, short-term multi-purpose and calamity loans, and housing loans. Register and pay online via Virtual Pag-IBIG, or transact at the Pag-IBIG Sorsogon branch — confirm its current address and phone through the official Pag-IBIG branch locator, as older local listings are outdated.",
+      "url": "https://www.pagibigfund.gov.ph",
+      "local_office": {
+        "name": "Pag-IBIG Fund Sorsogon Branch",
+        "address": null,
+        "phone": null
+      },
+      "sources": [
+        "https://www.pagibigfund.gov.ph/pagibigbranchlocator.html",
+        "https://www.pagibigfund.gov.ph/"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "service": "DSWD Assistance (4Ps and AICS)",
+      "slug": "dswd-4ps-aics",
+      "category": { "name": "Health & Social Services", "slug": "health-social" },
+      "description": "DSWD Field Office V (Bicol) runs the Pantawid Pamilyang Pilipino Program (4Ps) conditional cash transfer and AICS (Assistance to Individuals in Crisis Situations — medical, burial, transportation, and educational aid). In Sorsogon, transact at the DSWD SWAD/satellite office in Sorsogon City or your city/municipal social welfare office (CSWDO/MSWDO).",
+      "url": "https://fo5.dswd.gov.ph",
+      "local_office": {
+        "name": "DSWD SWAD Sorsogon (Social Welfare and Development Team)",
+        "address": "NER Building, Calle Nueva Street, Polvorista, Sorsogon City, Sorsogon (a DSWD satellite office also operates at the National Government Center, Capitol Compound, Barangay Burabod)",
+        "phone": null
+      },
+      "sources": [
+        "https://fo5.dswd.gov.ph/",
+        "https://www.dswd.gov.ph/dswd-directory-satellite-offices/",
+        "https://dswdcashassistance.ph/dswd-office-region-5/"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "service": "Sorsogon Scholarships and Educational Assistance",
+      "slug": "sorsogon-scholarships",
+      "category": { "name": "Education & Scholarships", "slug": "education" },
+      "description": "Sorsogon City's 'Sulay sa Futuro' City Academic Scholarship Program grants college scholarships to qualified city-resident students through an application and qualifying exam run by the LGU. The Provincial Government's PSWDO provides educational cash assistance (AICS-type aid) rather than a separate province-wide scholarship program, and national programs (CHED, DOST-SEI, UniFAST/TES, and DSWD educational cash assistance) are open to Sorsoganons.",
+      "url": "https://sorsogoncity.gov.ph",
+      "local_office": {
+        "name": "Provincial Social Welfare and Development Office (PSWDO) – Sorsogon",
+        "address": "Flores Street, Barangay Burabod, Sorsogon City, Sorsogon 4700 (email: pswdo@sorsogon.gov.ph)",
+        "phone": null
+      },
+      "sources": [
+        "http://sorsogoncity.gov.ph/wp-content/uploads/2026/02/2026-appli-form.pdf",
+        "https://www.facebook.com/SorsogonCityPIO/posts/2026-city-academic-scholarship-program-the-lgu-sorsogon-city-through-its-sulay-s/1205759198394774/",
+        "https://sorsogon.gov.ph/wp-content/uploads/2023/07/Provincial-Social-Welfare-and-Development-Office-compressed.pdf",
+        "https://sorsu.edu.ph/category/student-services/scholarship-and-financial-assistance-unit/scholarship-announcements/"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "service": "TESDA Training and Scholarships",
+      "slug": "tesda-training-scholarships",
+      "category": { "name": "Education & Scholarships", "slug": "education" },
+      "description": "TESDA offers free tech-voc training and scholarships (TWSP, PESFA, STEP) plus National Certificate (NC) competency assessments for jobs and overseas work. Enroll at the TESDA Sorsogon Provincial Office / Provincial Training Center in Sorsogon City, or take free courses via the TESDA Online Program.",
+      "url": "https://www.tesda.gov.ph",
+      "local_office": {
+        "name": "TESDA Sorsogon Provincial Office / Provincial Training Center",
+        "address": "City Hall Compound, Barangay Cabid-an, Sorsogon City, Sorsogon 4700 (email: region5.sorsogon@tesda.gov.ph)",
+        "phone": "(056) 256-0961 / (056) 256-1964"
+      },
+      "sources": [
+        "https://www.tesda.gov.ph/Directory/Regions",
+        "https://www.facebook.com/PTCSorsogon.TESDA/",
+        "https://contactnumbersph.com/tesda-sorsogon-provincial-office/",
+        "https://tesdaonlineprogram.com/tesda-region-5-office/"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "service": "PESO Job Placement",
+      "slug": "peso-job-placement",
+      "category": { "name": "Employment", "slug": "employment" },
+      "description": "The Public Employment Service Office (PESO) provides free job matching and referral, job fairs, and access to government livelihood/employment programs (SPES, TUPAD, GIP). Visit the Provincial PESO at the Sorsogon Provincial Capitol or your own city/municipal PESO — every LGU in Sorsogon maintains one.",
+      "url": "https://www.dole.gov.ph",
+      "local_office": {
+        "name": "PESO Province of Sorsogon",
+        "address": "Sorsogon Provincial Capitol, Sorsogon City, Sorsogon 4700",
+        "phone": "(056) 211-1398"
+      },
+      "sources": [
+        "https://www.businesslist.ph/company/116422/public-employment-service-office-peso-sorsogon",
+        "https://www.facebook.com/p/PESO-Province-of-Sorsogon-100083636116523/",
+        "https://pilarsorsogon.gov.ph/public-employment/"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "service": "OWWA / OFW Services",
+      "slug": "owwa-ofw-services",
+      "category": { "name": "Employment", "slug": "employment" },
+      "description": "OWWA provides OFW membership, welfare assistance, repatriation, scholarships, and reintegration/livelihood programs for overseas Filipino workers and their families. Bicol-based OFWs are served by the OWWA Regional Welfare Office V in Legazpi City, the nearest office to Sorsogon; membership and some services are also available online.",
+      "url": "https://owwa.gov.ph",
+      "local_office": {
+        "name": "OWWA Regional Welfare Office V (Bicol)",
+        "address": "4th Floor, Ayala Malls Legazpi, Barangay 36 Capantawan, Legazpi City, Albay 4500 (email: region5@owwa.gov.ph)",
+        "phone": "0906-164-2854"
+      },
+      "sources": [
+        "https://owwa.gov.ph/key-officials-regional-welfare-offices/",
+        "https://owwa.gov.ph/wp-content/uploads/2026/03/RWOs-Directory-as-of-March-8-2026-March-8-2026-1.pdf",
+        "https://owwamember.com/owwa-bicol-region-5/"
+      ],
+      "verification": "cross-checked"
+    }
+  ]
+}

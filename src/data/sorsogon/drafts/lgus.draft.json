@@ -1,0 +1,344 @@
+{
+  "generated": "2026-08-20",
+  "province": {
+    "name": "Sorsogon",
+    "governor": { "name": "Jose Edwin \"Boboy\" Hamor" },
+    "vice_governor": { "name": "Krunimar Antonio \"Jun\" Escudero II" },
+    "address": "Capitol Compound, Sorsogon City, Sorsogon 4700",
+    "phone": [],
+    "email": "contact@sorsogon.gov.ph",
+    "website": "https://sorsogon.gov.ph",
+    "facebook": "https://www.facebook.com/SorsogonProvinceOfficial",
+    "sources": [
+      "https://ph.rappler.com/elections/2025/local-race/sorsogon",
+      "https://en.wikipedia.org/wiki/Sorsogon",
+      "https://en.wikipedia.org/wiki/Jose_Edwin_Hamor",
+      "https://sorsogon.gov.ph/about/contact-us/"
+    ],
+    "verification": "cross-checked"
+  },
+  "lgus": [
+    {
+      "name": "Sorsogon City",
+      "slug": "sorsogon-city",
+      "type": "city",
+      "zip_code": "4700",
+      "income_class": "2nd",
+      "population_2020": 182237,
+      "barangays": 64,
+      "mayor": { "name": "Ma. Ester E. Hamor" },
+      "vice_mayor": { "name": "Mark Eric C. Dioneda" },
+      "address": null,
+      "phone": [],
+      "email": null,
+      "facebook": "https://www.facebook.com/SorsogonCityPIO",
+      "website": "https://sorsogoncity.gov.ph",
+      "sources": [
+        "https://ph.rappler.com/elections/2025/local-race/sorsogon/sorsogon-city",
+        "https://en.wikipedia.org/wiki/Sorsogon_City",
+        "https://peoplaid.com/2025/05/11/sorsogon-city-election-2025-results-winners/"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "type": "municipality",
+      "zip_code": "4712",
+      "income_class": "5th",
+      "population_2020": 20987,
+      "barangays": 25,
+      "mayor": { "name": "Cynthia G. Falcotelo-Fortes" },
+      "vice_mayor": { "name": "Odin Azore" },
+      "address": null,
+      "phone": [],
+      "email": null,
+      "facebook": null,
+      "website": null,
+      "sources": [
+        "https://ph.rappler.com/elections/2025/local-race/sorsogon/barcelona",
+        "https://www.gmanetwork.com/news/eleksyon/2025/results/local/REGION+V/SORSOGON/BARCELONA/",
+        "https://en.wikipedia.org/wiki/Barcelona,_Sorsogon"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "Bulan",
+      "slug": "bulan",
+      "type": "municipality",
+      "zip_code": "4706",
+      "income_class": "1st",
+      "population_2020": 105190,
+      "barangays": 63,
+      "mayor": { "name": "Romeo A. Gordola" },
+      "vice_mayor": { "name": "Chezka Mae B. Robles" },
+      "address": null,
+      "phone": [],
+      "email": null,
+      "facebook": null,
+      "website": null,
+      "sources": [
+        "https://ph.rappler.com/elections/2025/local-race/sorsogon/bulan",
+        "https://en.wikipedia.org/wiki/Bulan,_Sorsogon"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "Bulusan",
+      "slug": "bulusan",
+      "type": "municipality",
+      "zip_code": "4704",
+      "income_class": "4th",
+      "population_2020": 23932,
+      "barangays": 24,
+      "mayor": { "name": "Wennie R. Romano" },
+      "vice_mayor": { "name": "Michael G. Guysayko" },
+      "address": null,
+      "phone": [],
+      "email": null,
+      "facebook": null,
+      "website": "https://bulusan.gov.ph",
+      "sources": [
+        "https://ph.rappler.com/elections/2025/local-race/sorsogon/bulusan",
+        "https://en.wikipedia.org/wiki/Bulusan,_Sorsogon"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "Casiguran",
+      "slug": "casiguran",
+      "type": "municipality",
+      "zip_code": "4702",
+      "income_class": "4th",
+      "population_2020": 35602,
+      "barangays": 25,
+      "mayor": { "name": "Ma. Minez R. Hamor" },
+      "vice_mayor": { "name": "Dennis Alfonso H. Escudero" },
+      "address": null,
+      "phone": [],
+      "email": null,
+      "facebook": null,
+      "website": null,
+      "sources": [
+        "https://ph.rappler.com/elections/2025/local-race/sorsogon/casiguran",
+        "https://en.wikipedia.org/wiki/Casiguran,_Sorsogon"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "Castilla",
+      "slug": "castilla",
+      "type": "municipality",
+      "zip_code": "4713",
+      "income_class": "3rd",
+      "population_2020": 60635,
+      "barangays": 34,
+      "mayor": { "name": "Isagani B. Mendoza" },
+      "vice_mayor": { "name": "Boy Agarap" },
+      "address": null,
+      "phone": [],
+      "email": null,
+      "facebook": null,
+      "website": null,
+      "sources": [
+        "https://ph.rappler.com/elections/2025/local-race/sorsogon/castilla",
+        "https://peoplaid.com/2025/05/12/castilla-sorsogon-election-2025-results-winners/",
+        "https://en.wikipedia.org/wiki/Castilla,_Sorsogon"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "Donsol",
+      "slug": "donsol",
+      "type": "municipality",
+      "zip_code": "4715",
+      "income_class": "3rd",
+      "population_2020": 50281,
+      "barangays": 51,
+      "mayor": { "name": "Ralph Walter \"Chuck\" Lubiano" },
+      "vice_mayor": { "name": "Ma. Christiana R. Abetria" },
+      "address": null,
+      "phone": [],
+      "email": null,
+      "facebook": null,
+      "website": null,
+      "sources": [
+        "https://ph.rappler.com/elections/2025/local-race/sorsogon/donsol",
+        "https://en.wikipedia.org/wiki/Donsol"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "Gubat",
+      "slug": "gubat",
+      "type": "municipality",
+      "zip_code": "4710",
+      "income_class": "2nd",
+      "population_2020": 60294,
+      "barangays": 42,
+      "mayor": { "name": "Ronnel U. Lim" },
+      "vice_mayor": { "name": "Anthony Callos" },
+      "address": null,
+      "phone": [],
+      "email": null,
+      "facebook": null,
+      "website": null,
+      "sources": [
+        "https://ph.rappler.com/elections/2025/local-race/sorsogon/gubat",
+        "https://peoplaid.com/2025/05/12/gubat-election-2025-results-winners/",
+        "https://en.wikipedia.org/wiki/Gubat,_Sorsogon"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "Irosin",
+      "slug": "irosin",
+      "type": "municipality",
+      "zip_code": "4707",
+      "income_class": "2nd",
+      "population_2020": 59267,
+      "barangays": 28,
+      "mayor": { "name": "Grace Hamor" },
+      "vice_mayor": { "name": "Alfredo J. \"Pidoy\" Cielo Jr." },
+      "address": null,
+      "phone": [],
+      "email": null,
+      "facebook": null,
+      "website": null,
+      "sources": [
+        "https://ph.rappler.com/elections/2025/local-race/sorsogon/irosin",
+        "https://www.facebook.com/bicoltv/posts/congratulations-to-the-newly-elected-officials-in-the-municipality-of-irosin-sor/1134562465352694/",
+        "https://en.wikipedia.org/wiki/Irosin"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "Juban",
+      "slug": "juban",
+      "type": "municipality",
+      "zip_code": "4703",
+      "income_class": "4th",
+      "population_2020": 35297,
+      "barangays": 25,
+      "mayor": { "name": "Rogel \"Botox\" Fulleros" },
+      "vice_mayor": { "name": "Felipe G. Guasa" },
+      "address": null,
+      "phone": [],
+      "email": null,
+      "facebook": null,
+      "website": null,
+      "sources": [
+        "https://ph.rappler.com/elections/2025/local-race/sorsogon/juban",
+        "https://en.wikipedia.org/wiki/Juban,_Sorsogon"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "Magallanes",
+      "slug": "magallanes",
+      "type": "municipality",
+      "zip_code": "4705",
+      "income_class": "3rd",
+      "population_2020": 37411,
+      "barangays": 34,
+      "mayor": { "name": "Maria Elena Ramona M. Ragragio" },
+      "vice_mayor": { "name": "Augusto Manuel M. Ragragio" },
+      "address": null,
+      "phone": [],
+      "email": null,
+      "facebook": null,
+      "website": null,
+      "sources": [
+        "https://ph.rappler.com/elections/2025/local-race/sorsogon/magallanes",
+        "https://en.wikipedia.org/wiki/Magallanes,_Sorsogon"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "Matnog",
+      "slug": "matnog",
+      "type": "municipality",
+      "zip_code": "4708",
+      "income_class": "3rd",
+      "population_2020": 41989,
+      "barangays": 40,
+      "mayor": { "name": "Bobet Lee Rodrigueza" },
+      "vice_mayor": { "name": "Emilio G. \"Jay\" Ubaldo III" },
+      "address": null,
+      "phone": [],
+      "email": null,
+      "facebook": null,
+      "website": null,
+      "sources": [
+        "https://ph.rappler.com/elections/2025/local-race/sorsogon/matnog",
+        "https://en.wikipedia.org/wiki/Matnog"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "Pilar",
+      "slug": "pilar",
+      "type": "municipality",
+      "zip_code": "4714",
+      "income_class": "1st",
+      "population_2020": 75793,
+      "barangays": 49,
+      "mayor": { "name": "Dennis A. Sy-Reyes" },
+      "vice_mayor": { "name": "Papalao Lao" },
+      "address": null,
+      "phone": [],
+      "email": null,
+      "facebook": null,
+      "website": "https://pilarsorsogon.gov.ph",
+      "sources": [
+        "https://ph.rappler.com/elections/2025/local-race/sorsogon/pilar",
+        "https://pilarsorsogon.gov.ph/2025/05/13/comelec-proclaims-pilar-winning-candidates/",
+        "https://en.wikipedia.org/wiki/Pilar,_Sorsogon"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "Prieto Diaz",
+      "slug": "prieto-diaz",
+      "type": "municipality",
+      "zip_code": "4711",
+      "income_class": "5th",
+      "population_2020": 22644,
+      "barangays": 23,
+      "mayor": { "name": "Romeo D. Domasian Sr." },
+      "vice_mayor": { "name": "Avon D. Domalaon" },
+      "address": null,
+      "phone": [],
+      "email": null,
+      "facebook": null,
+      "website": null,
+      "sources": [
+        "https://ph.rappler.com/elections/2025/local-race/sorsogon/prieto-diaz",
+        "https://www.comelec.gov.ph/php-tpls-attachments/2025NLE/COC_2025NLE/COC_Local/COC_Local_R5/SORSOGON/PRIETO_DIAZ/MAYOR_DOMASIAN_ROMEO_D_CONA.pdf",
+        "https://sundaypunch.ph/thirty-candidates-in-bicol-region-unopposed-in-2025-elections/"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "Santa Magdalena",
+      "slug": "santa-magdalena",
+      "type": "municipality",
+      "zip_code": "4709",
+      "income_class": "5th",
+      "population_2020": 17096,
+      "barangays": 14,
+      "mayor": { "name": "Mark Jewery G. Lozano" },
+      "vice_mayor": { "name": "Norbie F. Forte" },
+      "address": null,
+      "phone": [],
+      "email": null,
+      "facebook": null,
+      "website": null,
+      "sources": [
+        "https://ph.rappler.com/elections/2025/local-race/sorsogon/santa-magdalena",
+        "https://en.wikipedia.org/wiki/Santa_Magdalena,_Sorsogon"
+      ],
+      "verification": "cross-checked"
+    }
+  ]
+}

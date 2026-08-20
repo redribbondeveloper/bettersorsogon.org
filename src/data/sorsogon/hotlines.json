@@ -1,0 +1,423 @@
+{
+  "generated": "2026-08-20",
+  "verified_at": "2026-08-20",
+  "hotlines": [
+    {
+      "name": "National Emergency Hotline",
+      "category": "emergency",
+      "scope": "national",
+      "numbers": ["911"],
+      "facebook": null,
+      "notes": "Nationwide single emergency number (police, fire, medical, disaster); operates 24/7. Sorsogon province also routes citizen emergency calls through 911.",
+      "sources": [
+        "https://www.gov.ph/the-government/hotlines/",
+        "https://en.wikipedia.org/wiki/911_(Philippines)",
+        "https://sorsogon.gov.ph/tourism/emergency-hotlines/"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "NDRRMC Operations Center",
+      "category": "disaster",
+      "scope": "national",
+      "numbers": ["(02) 8911-1406", "(02) 8912-2665", "(02) 8912-5668", "(02) 8911-1873"],
+      "facebook": "https://www.facebook.com/NDRRMC",
+      "notes": "National Disaster Risk Reduction and Management Council operations center, Camp Aguinaldo, Quezon City; operates 24/7. During major disasters the NDRRMC sometimes publishes additional temporary hotline numbers via its official Facebook page.",
+      "sources": [
+        "https://www.morefunwithjuan.com/2021/08/emergency-hotlines-in-philippines.html",
+        "https://www.gov.ph/the-government/hotlines/"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "name": "Philippine Red Cross (National Hotline)",
+      "category": "medical",
+      "scope": "national",
+      "numbers": ["143", "(+63 2) 8790-2300"],
+      "facebook": null,
+      "notes": "National emergency hotline 143 and trunkline for the Philippine Red Cross; call to be routed to the Sorsogon/Bicol chapter.",
+      "sources": ["https://redcross.org.ph/contact-us/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "Sorsogon Provincial DRRM Office (SPDRRMO)",
+      "category": "disaster",
+      "scope": "province",
+      "numbers": ["(+63)919-080-5985"],
+      "facebook": "https://www.facebook.com/spdrmo/",
+      "notes": "SPDRRMO Building, Arnedo Street, Capitol Compound, Sorsogon City. Email: spdrrm@sorsogon.gov.ph. Provincial emergency calls for citizens are also routed via the 911 emergency hotline.",
+      "sources": [
+        "https://spdrrmo.org/contact/",
+        "https://www.pna.gov.ph/articles/1113841",
+        "https://www.facebook.com/spdrmo/"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "Sorsogon Police Provincial Office (PPO)",
+      "category": "police",
+      "scope": "province",
+      "numbers": ["09985986059", "09399169319", "0998-598-6062"],
+      "facebook": "https://www.facebook.com/SSPOTagapagUgnay/",
+      "notes": "Camp Salvador C. Escudero Sr., Brgy. Sampaloc, Sorsogon City. 0998-598-6062 is the PNP number published on the provincial government emergency-hotlines page; 09985986059 / 09399169319 are from the official Sorsogon PPO website.",
+      "sources": [
+        "https://sppo.pro5.pnp.gov.ph/contact-us/",
+        "https://sorsogon.gov.ph/tourism/emergency-hotlines/"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "Bureau of Fire Protection (BFP) Sorsogon",
+      "category": "fire",
+      "scope": "province",
+      "numbers": ["0909-456-7636"],
+      "facebook": null,
+      "notes": "Provincial BFP contact as listed on the Sorsogon provincial government emergency-hotlines page.",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "Philippine Red Cross Sorsogon",
+      "category": "medical",
+      "scope": "province",
+      "numbers": ["0920-545-3905", "0915-262-4959"],
+      "facebook": null,
+      "notes": "Red Cross numbers listed on the Sorsogon provincial government emergency-hotlines page (Sorsogon chapter).",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "Sorsogon City Health Office",
+      "category": "medical",
+      "scope": "sorsogon-city",
+      "numbers": ["0917-538-0362"],
+      "facebook": null,
+      "notes": "City Health Office - Sorsogon City, as listed on the provincial government emergency-hotlines page.",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "Sorsogon City Emergency (Seguridad, Kaayusan, Katranquilohan, Kausinagan)",
+      "category": "emergency",
+      "scope": "sorsogon-city",
+      "numbers": ["0909-640-1742", "0955-437-3028"],
+      "facebook": null,
+      "notes": "Sorsogon City public-safety emergency line, per the provincial government emergency-hotlines page.",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "Sorsogon City DRRMO (CDRRMO)",
+      "category": "disaster",
+      "scope": "sorsogon-city",
+      "numbers": ["0929-431-7493"],
+      "facebook": "https://www.facebook.com/SorCDRRMO/",
+      "notes": "City DRRMO number per the provincial government emergency-hotlines page. Official Facebook page: Sorsogon City DRRMO.",
+      "sources": [
+        "https://sorsogon.gov.ph/tourism/emergency-hotlines/",
+        "https://www.facebook.com/SorCDRRMO/"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "name": "MDRRMO Barcelona",
+      "category": "disaster",
+      "scope": "barcelona",
+      "numbers": ["0950-674-0375"],
+      "facebook": null,
+      "notes": "Municipal DRRMO per the provincial government emergency-hotlines page. Email: mdrrmobarcelona2017@gmail.com.",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "MDRRMO Bulan",
+      "category": "disaster",
+      "scope": "bulan",
+      "numbers": ["0961-823-4182"],
+      "facebook": null,
+      "notes": "Municipal DRRMO per the provincial government emergency-hotlines page. Email: mdrrmo.bulan@gmail.com.",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "MDRRMO Bulusan",
+      "category": "disaster",
+      "scope": "bulusan",
+      "numbers": ["0948-768-6843"],
+      "facebook": null,
+      "notes": "Municipal DRRMO per the provincial government emergency-hotlines page. Email: mdrrmobulusansorsogon@gmail.com.",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "MDRRMO Casiguran",
+      "category": "disaster",
+      "scope": "casiguran",
+      "numbers": ["0908-884-8400"],
+      "facebook": null,
+      "notes": "Municipal DRRMO per the provincial government emergency-hotlines page. Email: casiguransor_mdrrmo@yahoo.com.",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "MDRRMO Castilla",
+      "category": "disaster",
+      "scope": "castilla",
+      "numbers": ["0928-949-6045"],
+      "facebook": null,
+      "notes": "Municipal DRRMO per the provincial government emergency-hotlines page. Email: mdrrmcastilla@yahoo.com.",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "MDRRMO Donsol",
+      "category": "disaster",
+      "scope": "donsol",
+      "numbers": ["0999-471-9654"],
+      "facebook": null,
+      "notes": "Municipal DRRMO per the provincial government emergency-hotlines page. Email: mdrrmodonsol@yahoo.com.",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "MDRRMO Gubat",
+      "category": "disaster",
+      "scope": "gubat",
+      "numbers": ["0977-810-3233"],
+      "facebook": null,
+      "notes": "Municipal DRRMO per the provincial government emergency-hotlines page. Email: mdrrmogubat@gmail.com.",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "MDRRMO Irosin",
+      "category": "disaster",
+      "scope": "irosin",
+      "numbers": ["0919-831-4437"],
+      "facebook": null,
+      "notes": "Municipal DRRMO per the provincial government emergency-hotlines page. Email: irosin_mdrrmo2014@yahoo.com.",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "MDRRMO Juban",
+      "category": "disaster",
+      "scope": "juban",
+      "numbers": ["0918-304-3502"],
+      "facebook": null,
+      "notes": "Municipal DRRMO per the provincial government emergency-hotlines page. Email: mdrrmojuban2019@gmail.com.",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "MDRRMO Magallanes",
+      "category": "disaster",
+      "scope": "magallanes",
+      "numbers": ["0930-709-7811"],
+      "facebook": null,
+      "notes": "Municipal DRRMO per the provincial government emergency-hotlines page. Email: magallanesmdrrmo.gov.ph@gmail.com.",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "MDRRMO Matnog",
+      "category": "disaster",
+      "scope": "matnog",
+      "numbers": ["0928-904-6383"],
+      "facebook": null,
+      "notes": "Municipal DRRMO per the provincial government emergency-hotlines page. Email: matnogmdrrmodxh765@gmail.com.",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "MDRRMO Pilar",
+      "category": "disaster",
+      "scope": "pilar",
+      "numbers": ["0947-813-3933"],
+      "facebook": null,
+      "notes": "Municipal DRRMO per the provincial government emergency-hotlines page; also published as the Pilar rescue emergency hotline on the municipal government website. Email: pilarsor.mdrrmo@gmail.com.",
+      "sources": [
+        "https://sorsogon.gov.ph/tourism/emergency-hotlines/",
+        "https://pilarsorsogon.gov.ph/2024/04/23/pilar-mdrrmo-lista-cautions-the-public-on-41-2-c-to-43-c-heat-index-for-sorsogon/"
+      ],
+      "verification": "cross-checked"
+    },
+    {
+      "name": "MDRRMO Prieto Diaz",
+      "category": "disaster",
+      "scope": "prieto-diaz",
+      "numbers": ["0948-848-6636"],
+      "facebook": null,
+      "notes": "Municipal DRRMO per the provincial government emergency-hotlines page (listed as 'Puerto Diaz'). Email: mdrrmo_prietodiaz@yahoo.com.",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "MDRRMO Santa Magdalena",
+      "category": "disaster",
+      "scope": "santa-magdalena",
+      "numbers": ["0920-738-7494"],
+      "facebook": null,
+      "notes": "Municipal DRRMO per the provincial government emergency-hotlines page. Email: lgustamag.mdrrmo@gmail.com.",
+      "sources": ["https://sorsogon.gov.ph/tourism/emergency-hotlines/"],
+      "verification": "single-source"
+    },
+    {
+      "name": "Philippine Coast Guard Station Sorsogon (CGS Sorsogon)",
+      "category": "coast-guard",
+      "scope": "province",
+      "numbers": ["0909-114-1877", "0993-563-1542"],
+      "facebook": "https://www.facebook.com/cgs.sor",
+      "notes": "Provincial Coast Guard Station under PCG Coast Guard District Bicol; headquarters at Pier Site, Brgy. Talisay, Sorsogon City. Exercises operational control over the Sorsogon coast guard sub-stations (Matnog, Bulan, Donsol, Pilar, etc.). Listed in the official PCG Coast Guard District Bicol station directory on coastguard.gov.ph; the live page blocks automated access, so the directory was read via the Internet Archive snapshot dated 2025-11-12. The official Facebook page 'Coast Guard Station Sorsogon' (@cgs.sor, uses #CoastGuardPH / #DOTrPH) confirms the station but did not itself publish these numbers.",
+      "sources": [
+        "https://www.coastguard.gov.ph/index.php/districts/cgd-bicol",
+        "http://web.archive.org/web/20251112165026/https://www.coastguard.gov.ph/index.php/districts/cgd-bicol",
+        "https://www.facebook.com/cgs.sor"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "name": "PCG Coast Guard Sub-Station Talisay (CGSS Talisay)",
+      "category": "coast-guard",
+      "scope": "sorsogon-city",
+      "numbers": ["0993-563-1542"],
+      "facebook": null,
+      "notes": "Coast Guard Sub-Station under CGS Sorsogon; Pier Site, Brgy. Talisay, Sorsogon City (co-located with the provincial station HQ, hence the shared line). From the official PCG Coast Guard District Bicol station directory on coastguard.gov.ph, read via the Internet Archive snapshot dated 2025-11-12.",
+      "sources": [
+        "https://www.coastguard.gov.ph/index.php/districts/cgd-bicol",
+        "http://web.archive.org/web/20251112165026/https://www.coastguard.gov.ph/index.php/districts/cgd-bicol"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "name": "PCG Coast Guard Sub-Station Matnog (CGSS Matnog)",
+      "category": "coast-guard",
+      "scope": "matnog",
+      "numbers": ["0931-982-7019"],
+      "facebook": null,
+      "notes": "Coast Guard Sub-Station under CGS Sorsogon; Pier Site, Brgy. Caloocan, Matnog, Sorsogon. Covers the Matnog ferry terminal (Sorsogon-Samar RoRo crossing), the busiest maritime gateway in the province. From the official PCG Coast Guard District Bicol station directory on coastguard.gov.ph, read via the Internet Archive snapshot dated 2025-11-12.",
+      "sources": [
+        "https://www.coastguard.gov.ph/index.php/districts/cgd-bicol",
+        "http://web.archive.org/web/20251112165026/https://www.coastguard.gov.ph/index.php/districts/cgd-bicol"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "name": "PCG Coast Guard Sub-Station Bulan (CGSS Bulan)",
+      "category": "coast-guard",
+      "scope": "bulan",
+      "numbers": ["0962-609-9079"],
+      "facebook": null,
+      "notes": "Coast Guard Sub-Station under CGS Sorsogon; Pier 1, Brgy. Zone 4, Bulan, Sorsogon. From the official PCG Coast Guard District Bicol station directory on coastguard.gov.ph, read via the Internet Archive snapshot dated 2025-11-12.",
+      "sources": [
+        "https://www.coastguard.gov.ph/index.php/districts/cgd-bicol",
+        "http://web.archive.org/web/20251112165026/https://www.coastguard.gov.ph/index.php/districts/cgd-bicol"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "name": "PCG Coast Guard Sub-Station Donsol (CGSS Donsol)",
+      "category": "coast-guard",
+      "scope": "donsol",
+      "numbers": ["0992-978-4156"],
+      "facebook": null,
+      "notes": "Coast Guard Sub-Station under CGS Sorsogon; Brgy. Punta, Waling-Waling Dalisay, Donsol, Sorsogon. From the official PCG Coast Guard District Bicol station directory on coastguard.gov.ph, read via the Internet Archive snapshot dated 2025-11-12.",
+      "sources": [
+        "https://www.coastguard.gov.ph/index.php/districts/cgd-bicol",
+        "http://web.archive.org/web/20251112165026/https://www.coastguard.gov.ph/index.php/districts/cgd-bicol"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "name": "PCG Coast Guard Sub-Station Pilar (CGSS Pilar)",
+      "category": "coast-guard",
+      "scope": "pilar",
+      "numbers": ["0963-696-1306"],
+      "facebook": null,
+      "notes": "Coast Guard Sub-Station under CGS Sorsogon; Pier Site, Brgy. Binanuahan, Pilar, Sorsogon. From the official PCG Coast Guard District Bicol station directory on coastguard.gov.ph, read via the Internet Archive snapshot dated 2025-11-12.",
+      "sources": [
+        "https://www.coastguard.gov.ph/index.php/districts/cgd-bicol",
+        "http://web.archive.org/web/20251112165026/https://www.coastguard.gov.ph/index.php/districts/cgd-bicol"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "name": "PCG Coast Guard Sub-Station Bacon (CGSS Bacon)",
+      "category": "coast-guard",
+      "scope": "sorsogon-city",
+      "numbers": ["0985-383-9775"],
+      "facebook": null,
+      "notes": "Coast Guard Sub-Station under CGS Sorsogon; Pigsabunan B, Brgy. Poblacion, Bacon District, Sorsogon City (Bacon is a district of Sorsogon City). From the official PCG Coast Guard District Bicol station directory on coastguard.gov.ph, read via the Internet Archive snapshot dated 2025-11-12.",
+      "sources": [
+        "https://www.coastguard.gov.ph/index.php/districts/cgd-bicol",
+        "http://web.archive.org/web/20251112165026/https://www.coastguard.gov.ph/index.php/districts/cgd-bicol"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "name": "PCG Coast Guard Sub-Station Castilla (CGSS Castilla)",
+      "category": "coast-guard",
+      "scope": "castilla",
+      "numbers": ["0919-735-5008"],
+      "facebook": null,
+      "notes": "Coast Guard Sub-Station under CGS Sorsogon; Brgy. Pier Site, Poblacion, Castilla, Sorsogon. From the official PCG Coast Guard District Bicol station directory on coastguard.gov.ph, read via the Internet Archive snapshot dated 2025-11-12.",
+      "sources": [
+        "https://www.coastguard.gov.ph/index.php/districts/cgd-bicol",
+        "http://web.archive.org/web/20251112165026/https://www.coastguard.gov.ph/index.php/districts/cgd-bicol"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "name": "PCG Coast Guard Sub-Station Gubat (CGSS Gubat)",
+      "category": "coast-guard",
+      "scope": "gubat",
+      "numbers": ["0919-678-0008"],
+      "facebook": null,
+      "notes": "Coast Guard Sub-Station under CGS Sorsogon; Brgy. Cota na Daco, Gubat, Sorsogon. From the official PCG Coast Guard District Bicol station directory on coastguard.gov.ph, read via the Internet Archive snapshot dated 2025-11-12.",
+      "sources": [
+        "https://www.coastguard.gov.ph/index.php/districts/cgd-bicol",
+        "http://web.archive.org/web/20251112165026/https://www.coastguard.gov.ph/index.php/districts/cgd-bicol"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "name": "PCG Coast Guard Sub-Station Bulusan (CGSS Bulusan)",
+      "category": "coast-guard",
+      "scope": "bulusan",
+      "numbers": ["0938-407-1397"],
+      "facebook": null,
+      "notes": "Coast Guard Sub-Station under CGS Sorsogon; Brgy. Looban, Bulusan, Sorsogon. From the official PCG Coast Guard District Bicol station directory on coastguard.gov.ph, read via the Internet Archive snapshot dated 2025-11-12.",
+      "sources": [
+        "https://www.coastguard.gov.ph/index.php/districts/cgd-bicol",
+        "http://web.archive.org/web/20251112165026/https://www.coastguard.gov.ph/index.php/districts/cgd-bicol"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "name": "PCG Coast Guard Sub-Station Juban (CGSS Juban)",
+      "category": "coast-guard",
+      "scope": "juban",
+      "numbers": ["0906-383-0775"],
+      "facebook": null,
+      "notes": "Coast Guard Sub-Station under CGS Sorsogon; Brgy. Tughan, Juban, Sorsogon. From the official PCG Coast Guard District Bicol station directory on coastguard.gov.ph, read via the Internet Archive snapshot dated 2025-11-12.",
+      "sources": [
+        "https://www.coastguard.gov.ph/index.php/districts/cgd-bicol",
+        "http://web.archive.org/web/20251112165026/https://www.coastguard.gov.ph/index.php/districts/cgd-bicol"
+      ],
+      "verification": "single-source"
+    },
+    {
+      "name": "Philippine Coast Guard (PCG) Command Center",
+      "category": "coast-guard",
+      "scope": "national",
+      "numbers": ["8527-3877", "5278482 local 6291", "0966-217-9610", "0969-217-4123"],
+      "facebook": null,
+      "notes": "National 24/7 PCG Command Center at PCG National Headquarters, 139 25th Street, Port Area, Manila. Primary national escalation line for maritime emergencies and search-and-rescue, including incidents in Sorsogon waters and the Matnog ferry crossing. From the official PCG website contact page (coastguard.gov.ph), read via the Internet Archive snapshot dated 2025-11-07 as the live page blocks automated access. The PCG Command Center number 5278482 local 6291 is left as printed by PCG; Metro Manila numbers are 8-digit since 2019 — try (02) 8527-8482 if unreachable.",
+      "sources": [
+        "https://www.coastguard.gov.ph/index.php/contact-us",
+        "http://web.archive.org/web/20251107003033/https://www.coastguard.gov.ph/index.php/contact-us"
+      ],
+      "verification": "single-source"
+    }
+  ]
+}
