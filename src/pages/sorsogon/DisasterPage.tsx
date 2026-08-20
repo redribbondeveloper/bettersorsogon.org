@@ -187,7 +187,7 @@ const LinkCard: FC<{ href: string; title: string; desc: string }> = ({
       </h3>
       <ExternalLink
         aria-hidden='true'
-        className='h-4 w-4 shrink-0 text-slate-400 transition-colors group-hover:text-teal-800'
+        className='h-4 w-4 shrink-0 text-slate-400 transition-colors group-hover:text-brand-800'
       />
     </div>
     <p className='mt-2 text-sm leading-relaxed text-slate-600'>{desc}</p>
@@ -224,11 +224,11 @@ const DisasterPage: FC = () => (
                 <a
                   key={num}
                   href={telHref(num)}
-                  className='inline-flex min-h-11 w-fit items-center gap-2 rounded text-lg font-semibold tabular-nums text-teal-800 transition-colors duration-150 hover:text-teal-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+                  className='inline-flex min-h-11 w-fit items-center gap-2 rounded text-lg font-semibold tabular-nums text-brand-800 transition-colors duration-150 hover:text-brand-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
                 >
                   <Phone
                     aria-hidden='true'
-                    className='h-4 w-4 shrink-0 text-teal-700/70'
+                    className='h-4 w-4 shrink-0 text-brand-700/70'
                   />
                   {num}
                 </a>
@@ -322,7 +322,7 @@ const DisasterPage: FC = () => (
           href='https://www.pagasa.dost.gov.ph'
           target='_blank'
           rel='noopener noreferrer'
-          className='rounded font-medium text-teal-800 transition-colors duration-150 hover:text-teal-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+          className='rounded font-medium text-brand-800 transition-colors duration-150 hover:text-brand-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
         >
           PAGASA
         </a>{' '}
@@ -343,7 +343,7 @@ const DisasterPage: FC = () => (
             <li key={entry.item} className='flex items-start gap-3'>
               <Square
                 aria-hidden='true'
-                className='mt-0.5 h-5 w-5 shrink-0 text-teal-700'
+                className='mt-0.5 h-5 w-5 shrink-0 text-brand-700'
               />
               <div>
                 <p className='text-[15px] font-medium text-slate-900'>
@@ -373,7 +373,7 @@ const DisasterPage: FC = () => (
             <ol className='mt-4 space-y-3'>
               {phase.steps.map((step, i) => (
                 <li key={i} className='flex gap-3'>
-                  <span className='flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-teal-800 text-xs font-semibold tabular-nums text-white'>
+                  <span className='flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-800 text-xs font-semibold tabular-nums text-white'>
                     {i + 1}
                   </span>
                   <span className='text-sm leading-relaxed text-slate-600'>
@@ -389,7 +389,7 @@ const DisasterPage: FC = () => (
 
     {/* 6 — Evacuation closing --------------------------------------- */}
     <Section variant='slate'>
-      <Card className='border-teal-800/20 bg-teal-50/40'>
+      <Card className='border-brand-800/20 bg-brand-50/40'>
         <div className='flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between'>
           <div>
             <h3 className='text-base font-semibold tracking-tight text-slate-900'>

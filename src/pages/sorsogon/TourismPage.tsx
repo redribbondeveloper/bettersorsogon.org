@@ -45,10 +45,10 @@ const CategoryPill: FC<{
     type='button'
     onClick={onClick}
     aria-pressed={active}
-    className={`h-11 rounded-full px-4 text-sm font-medium transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 ${
+    className={`h-11 rounded-full px-4 text-sm font-medium transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 ${
       active
-        ? 'bg-teal-800 text-white hover:bg-teal-900'
-        : 'border border-slate-300 text-slate-700 hover:border-teal-800 hover:text-teal-800'
+        ? 'bg-brand-800 text-white hover:bg-brand-900'
+        : 'border border-slate-300 text-slate-700 hover:border-brand-800 hover:text-brand-800'
     }`}
   >
     {label}
@@ -127,7 +127,7 @@ const TourismPage: FC = () => {
               id='municipality-filter'
               value={municipality}
               onChange={e => setMunicipality(e.target.value)}
-              className='h-11 flex-1 rounded-lg border border-slate-300 bg-white px-3 text-sm text-slate-700 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 md:flex-none'
+              className='h-11 flex-1 rounded-lg border border-slate-300 bg-white px-3 text-sm text-slate-700 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 md:flex-none'
             >
               <option value='all'>All municipalities</option>
               {presentMunicipalities.map(m => (
@@ -168,8 +168,8 @@ const TourismPage: FC = () => {
       </Section>
 
       {/* Closing band → Directory */}
-      <section className='relative overflow-hidden bg-gradient-to-br from-slate-950 via-teal-950 to-slate-900 text-white'>
-        <WaveDivider className='pointer-events-none absolute inset-x-0 bottom-0 h-32 w-full text-teal-300' />
+      <section className='relative overflow-hidden bg-gradient-to-br from-slate-950 via-brand-950 to-slate-900 text-white'>
+        <WaveDivider className='pointer-events-none absolute inset-x-0 bottom-0 h-32 w-full text-brand-300' />
         <div className='relative mx-auto flex max-w-6xl flex-col items-start gap-5 px-4 py-12 sm:px-6 md:flex-row md:items-center md:justify-between'>
           <div>
             <h2 className='text-2xl font-semibold tracking-tight'>

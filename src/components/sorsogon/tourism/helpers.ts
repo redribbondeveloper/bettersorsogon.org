@@ -59,8 +59,8 @@ export const humanizeMunicipality = (slug: string): string =>
         .map(part => part.charAt(0).toUpperCase() + part.slice(1))
         .join(' ');
 
-export const categoryVariant = (cat: string): 'amber' | 'teal' | 'slate' => {
+export const categoryVariant = (cat: string): 'amber' | 'leaf' | 'slate' => {
   if (cat === 'festival') return 'amber';
-  if (cat === 'nature' || cat === 'beach') return 'teal';
+  if (cat === 'nature' || cat === 'beach') return 'leaf';
   return 'slate';
 };

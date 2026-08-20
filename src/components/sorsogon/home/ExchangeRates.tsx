@@ -162,7 +162,7 @@ const ExchangeRates: FC = () => {
             href='https://www.exchangerate-api.com'
             rel='noopener noreferrer'
             target='_blank'
-            className='rounded text-teal-800 underline-offset-2 transition-colors duration-150 hover:text-teal-900 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+            className='rounded text-brand-800 underline-offset-2 transition-colors duration-150 hover:text-brand-900 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
           >
             Exchange Rate API
           </a>{' '}

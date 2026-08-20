@@ -74,7 +74,7 @@ const LguDetailPage: FC = () => {
           <nav aria-label='Breadcrumb' className='text-sm text-slate-400'>
             <Link
               to='/directory'
-              className='rounded transition-colors duration-150 hover:text-teal-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+              className='rounded transition-colors duration-150 hover:text-brand-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
             >
               Directory
             </Link>
@@ -90,7 +90,7 @@ const LguDetailPage: FC = () => {
           <div className='mt-5 h-px w-12 bg-amber-400' />
 
           <div className='mt-5 flex flex-wrap items-center gap-2'>
-            <Badge variant='teal'>{titleCase(lgu.type)}</Badge>
+            <Badge variant='brand'>{titleCase(lgu.type)}</Badge>
             {lgu.income_class && (
               <Badge variant='slate'>{lgu.income_class} income class</Badge>
             )}
@@ -173,7 +173,7 @@ const LguDetailPage: FC = () => {
                         <a
                           key={number}
                           href={telHref(number)}
-                          className='rounded text-lg font-semibold tabular-nums text-teal-800 transition-colors duration-150 hover:text-teal-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+                          className='rounded text-lg font-semibold tabular-nums text-brand-800 transition-colors duration-150 hover:text-brand-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
                         >
                           {number}
                         </a>
@@ -211,7 +211,7 @@ const LguDetailPage: FC = () => {
 
         {lgu.sources.length > 0 && (
           <details className='mt-10'>
-            <summary className='inline-flex cursor-pointer items-center rounded text-sm font-medium text-slate-500 transition-colors duration-150 hover:text-slate-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'>
+            <summary className='inline-flex cursor-pointer items-center rounded text-sm font-medium text-slate-500 transition-colors duration-150 hover:text-slate-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'>
               Data sources
             </summary>
             <ul className='mt-3 space-y-2'>
@@ -221,7 +221,7 @@ const LguDetailPage: FC = () => {
                     href={source}
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='inline-flex items-start gap-1.5 rounded text-sm text-teal-800 transition-colors duration-150 hover:text-teal-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 [overflow-wrap:anywhere]'
+                    className='inline-flex items-start gap-1.5 rounded text-sm text-brand-800 transition-colors duration-150 hover:text-brand-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 [overflow-wrap:anywhere]'
                   >
                     <ExternalLink
                       className='mt-0.5 h-3.5 w-3.5 shrink-0'
@@ -248,7 +248,7 @@ const LguDetailPage: FC = () => {
                 Government services
               </h3>
               <ChevronRight
-                className='mt-0.5 h-5 w-5 shrink-0 text-slate-300 transition-colors duration-150 group-hover:text-teal-800'
+                className='mt-0.5 h-5 w-5 shrink-0 text-slate-300 transition-colors duration-150 group-hover:text-brand-800'
                 aria-hidden='true'
               />
             </div>
@@ -263,7 +263,7 @@ const LguDetailPage: FC = () => {
                 Things to do
               </h3>
               <ChevronRight
-                className='mt-0.5 h-5 w-5 shrink-0 text-slate-300 transition-colors duration-150 group-hover:text-teal-800'
+                className='mt-0.5 h-5 w-5 shrink-0 text-slate-300 transition-colors duration-150 group-hover:text-brand-800'
                 aria-hidden='true'
               />
             </div>
@@ -279,7 +279,7 @@ const LguDetailPage: FC = () => {
                 Emergency hotlines
               </h3>
               <ChevronRight
-                className='mt-0.5 h-5 w-5 shrink-0 text-slate-300 transition-colors duration-150 group-hover:text-teal-800'
+                className='mt-0.5 h-5 w-5 shrink-0 text-slate-300 transition-colors duration-150 group-hover:text-brand-800'
                 aria-hidden='true'
               />
             </div>

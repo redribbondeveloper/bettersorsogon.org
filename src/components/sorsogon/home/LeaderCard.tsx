@@ -25,13 +25,13 @@ export interface LeaderCardProps {
 
 /**
  * LeaderCard — a dignified profile card for a provincial official:
- * an initials avatar in a teal disc, the office title, and the name.
+ * an initials avatar in a brand-blue disc, the office title, and the name.
  */
 const LeaderCard: FC<LeaderCardProps> = ({ name, title }) => (
   <Card className='flex items-center gap-4 self-start'>
     <span
       aria-hidden='true'
-      className='flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-teal-800 text-lg font-semibold tracking-tight text-white'
+      className='flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-brand-800 text-lg font-semibold tracking-tight text-white'
     >
       {getInitials(name)}
     </span>

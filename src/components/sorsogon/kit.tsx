@@ -5,9 +5,9 @@
  * Institutional-premium, "Sorsogon identity". Compose pages from these
  * primitives rather than reinventing markup.
  *
- * Palette: ink slate-900 · body slate-600/700 · primary teal-800 (hover teal-900)
- * dark surfaces slate-950→teal-950→slate-900 · gold amber-400/500 accents only
- * emergency red-700 · verified teal-700.
+ * Palette: ink slate-900 · body slate-600/700 · primary brand-800 (hover brand-900)
+ * dark surfaces slate-950→brand-950→slate-900 · gold amber-400/500 accents only
+ * emergency red-700 · verified brand-700.
  *
  * Uppercase label tracking has two tiers: tracking-[0.2em] is reserved for
  * section/page eyebrows (HeroShell / PageHeader / Section kickers); every
@@ -80,9 +80,9 @@ export const HeroShell: FC<HeroShellProps> = ({
   className = '',
 }) => (
   <section
-    className={`relative overflow-hidden bg-gradient-to-br from-slate-950 via-teal-950 to-slate-900 text-white ${className}`}
+    className={`relative overflow-hidden bg-gradient-to-br from-slate-950 via-brand-950 to-slate-900 text-white ${className}`}
   >
-    <WaveDivider className='pointer-events-none absolute inset-x-0 bottom-0 h-64 w-full text-teal-300' />
+    <WaveDivider className='pointer-events-none absolute inset-x-0 bottom-0 h-64 w-full text-brand-300' />
     <div className='relative mx-auto max-w-6xl px-4 sm:px-6 pt-20 pb-24'>
       {eyebrow && (
         <p className='text-xs font-semibold uppercase tracking-[0.2em] text-amber-400'>
@@ -217,8 +217,8 @@ interface CardProps {
 
 const cardBase =
   'bg-white rounded-2xl border border-slate-200/80 shadow-[0_1px_2px_rgba(0,0,0,0.05)] transition-all p-6';
-const cardInteractive = 'hover:shadow-md hover:border-teal-800/30';
-const cardLinkCls = `block ${cardBase} ${cardInteractive} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2`;
+const cardInteractive = 'hover:shadow-md hover:border-brand-800/30';
+const cardLinkCls = `block ${cardBase} ${cardInteractive} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2`;
 
 export const Card: FC<CardProps> = ({
   children,
@@ -283,7 +283,7 @@ export const StatCard: FC<StatCardProps> = ({
 /* ------------------------------------------------------------------ */
 /* Badge — small status pills.                                         */
 /* ------------------------------------------------------------------ */
-type BadgeVariant = 'slate' | 'amber' | 'red' | 'teal';
+type BadgeVariant = 'slate' | 'amber' | 'red' | 'brand' | 'leaf';
 
 interface BadgeProps {
   children: ReactNode;
@@ -295,7 +295,8 @@ const badgeVariants: Record<BadgeVariant, string> = {
   slate: 'bg-slate-100 text-slate-700',
   amber: 'bg-amber-100 text-amber-800',
   red: 'bg-red-100 text-red-700',
-  teal: 'bg-teal-100 text-teal-800',
+  brand: 'bg-brand-100 text-brand-800',
+  leaf: 'bg-emerald-100 text-emerald-800',
 };
 
 export const Badge: FC<BadgeProps> = ({
@@ -359,7 +360,7 @@ export const ContactRow: FC<ContactRowProps> = ({
           href={href}
           target={external ? '_blank' : undefined}
           rel={external ? 'noopener noreferrer' : undefined}
-          className={`min-w-0 [overflow-wrap:anywhere] text-sm text-teal-800 hover:text-teal-900 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 rounded ${
+          className={`min-w-0 [overflow-wrap:anywhere] text-sm text-brand-800 hover:text-brand-900 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 rounded ${
             isPhone ? 'font-medium tabular-nums' : ''
           }`}
         >
@@ -407,12 +408,12 @@ export const EmergencyCard: FC<EmergencyCardProps> = ({
 type BtnVariant = 'primary' | 'secondary' | 'danger';
 
 const btnBase =
-  'h-11 px-5 rounded-lg font-medium inline-flex items-center justify-center gap-2 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none';
+  'h-11 px-5 rounded-lg font-medium inline-flex items-center justify-center gap-2 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none';
 
 const btnVariants: Record<BtnVariant, string> = {
-  primary: 'bg-teal-800 hover:bg-teal-900 text-white',
+  primary: 'bg-brand-800 hover:bg-brand-900 text-white',
   secondary:
-    'border border-slate-300 text-slate-700 hover:border-teal-800 hover:text-teal-800',
+    'border border-slate-300 text-slate-700 hover:border-brand-800 hover:text-brand-800',
   danger: 'bg-red-700 hover:bg-red-800 text-white',
 };
 

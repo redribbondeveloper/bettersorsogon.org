@@ -16,7 +16,7 @@ const LguCard: FC<LguCardProps> = ({ lgu }) => (
           {lgu.name}
         </h3>
         <ChevronRight
-          className='mt-1 h-5 w-5 shrink-0 text-slate-300 transition-colors duration-150 group-hover:text-teal-800'
+          className='mt-1 h-5 w-5 shrink-0 text-slate-300 transition-colors duration-150 group-hover:text-brand-800'
           aria-hidden='true'
         />
       </div>

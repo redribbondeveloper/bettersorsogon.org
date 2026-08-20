@@ -73,9 +73,9 @@ const HotlineItem: FC<{ hotline: Hotline }> = ({ hotline }) => (
         <a
           key={num}
           href={telHref(num)}
-          className='inline-flex min-h-11 w-fit items-center gap-2 rounded text-xl font-semibold tabular-nums text-teal-800 transition-colors duration-150 hover:text-teal-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+          className='inline-flex min-h-11 w-fit items-center gap-2 rounded text-xl font-semibold tabular-nums text-brand-800 transition-colors duration-150 hover:text-brand-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
         >
-          <Phone aria-hidden='true' className='h-4 w-4 shrink-0 text-teal-700/70' />
+          <Phone aria-hidden='true' className='h-4 w-4 shrink-0 text-brand-700/70' />
           {num}
         </a>
       ))}
@@ -86,7 +86,7 @@ const HotlineItem: FC<{ hotline: Hotline }> = ({ hotline }) => (
         href={hotline.facebook}
         target='_blank'
         rel='noopener noreferrer'
-        className='mt-2 inline-flex items-center gap-1.5 rounded text-sm text-teal-800 transition-colors duration-150 hover:text-teal-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+        className='mt-2 inline-flex items-center gap-1.5 rounded text-sm text-brand-800 transition-colors duration-150 hover:text-brand-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
       >
         <Facebook aria-hidden='true' className='h-4 w-4' />
         Facebook page
@@ -207,7 +207,7 @@ const HotlinesPage: FC = () => {
               id='area'
               value={area}
               onChange={e => setArea(e.target.value)}
-              className='mt-2 h-11 w-full rounded-lg border border-slate-300 bg-white px-3 text-[15px] text-slate-700 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+              className='mt-2 h-11 w-full rounded-lg border border-slate-300 bg-white px-3 text-[15px] text-slate-700 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
             >
               <option value='all'>All areas</option>
               <option value='province'>Province-wide</option>
@@ -237,7 +237,7 @@ const HotlinesPage: FC = () => {
                 value={query}
                 onChange={e => setQuery(e.target.value)}
                 placeholder='Search by name, town, or service…'
-                className='h-11 w-full rounded-lg border border-slate-300 bg-white pl-9 pr-3 text-[15px] text-slate-700 transition-colors duration-150 placeholder:text-slate-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+                className='h-11 w-full rounded-lg border border-slate-300 bg-white pl-9 pr-3 text-[15px] text-slate-700 transition-colors duration-150 placeholder:text-slate-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
               />
             </div>
           </div>
@@ -265,7 +265,7 @@ const HotlinesPage: FC = () => {
                 setArea('all');
                 setQuery('');
               }}
-              className='mt-3 rounded font-medium text-teal-800 transition-colors duration-150 hover:text-teal-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+              className='mt-3 rounded font-medium text-brand-800 transition-colors duration-150 hover:text-brand-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
             >
               Clear filters
             </button>

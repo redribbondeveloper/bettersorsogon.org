@@ -35,13 +35,13 @@ function formatVerifiedDate(iso: string): string {
   return `${MONTHS[m - 1]} ${d}, ${y}`;
 }
 
-/** Inline external link, styled to the kit's teal link convention. */
+/** Inline external link, styled to the kit's brand link convention. */
 const Ext: FC<{ href: string; children: ReactNode }> = ({ href, children }) => (
   <a
     href={href}
     target='_blank'
     rel='noopener noreferrer'
-    className='rounded text-teal-800 underline decoration-slate-300 underline-offset-2 transition-colors hover:text-teal-900 hover:decoration-teal-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+    className='rounded text-brand-800 underline decoration-slate-300 underline-offset-2 transition-colors hover:text-brand-900 hover:decoration-brand-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
   >
     {children}
   </a>
@@ -168,7 +168,7 @@ const AboutPage: FC = () => {
           <li className='flex gap-3 text-[15px] leading-relaxed text-slate-600'>
             <span
               aria-hidden='true'
-              className='mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-700'
+              className='mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-700'
             />
             <span>
               <span className='font-medium text-slate-900'>
@@ -184,7 +184,7 @@ const AboutPage: FC = () => {
           <li className='flex gap-3 text-[15px] leading-relaxed text-slate-600'>
             <span
               aria-hidden='true'
-              className='mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-700'
+              className='mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-700'
             />
             <span>
               <span className='font-medium text-slate-900'>DILG directories</span>{' '}
@@ -195,7 +195,7 @@ const AboutPage: FC = () => {
           <li className='flex gap-3 text-[15px] leading-relaxed text-slate-600'>
             <span
               aria-hidden='true'
-              className='mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-700'
+              className='mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-700'
             />
             <span>
               <span className='font-medium text-slate-900'>
@@ -231,7 +231,7 @@ const AboutPage: FC = () => {
               <li key={step.title} className='flex gap-4'>
                 <span
                   aria-hidden='true'
-                  className='flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-teal-800 text-sm font-semibold tabular-nums text-white'
+                  className='flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand-800 text-sm font-semibold tabular-nums text-white'
                 >
                   {i + 1}
                 </span>

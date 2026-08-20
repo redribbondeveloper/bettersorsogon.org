@@ -12,7 +12,7 @@ interface TourismHeroProps {
 }
 
 const TourismHero: FC<TourismHeroProps> = ({ image }) => (
-  <section className='relative overflow-hidden bg-gradient-to-br from-slate-950 via-teal-950 to-slate-900 text-white'>
+  <section className='relative overflow-hidden bg-gradient-to-br from-slate-950 via-brand-950 to-slate-900 text-white'>
     {image && (
       <img
         src={image.src}

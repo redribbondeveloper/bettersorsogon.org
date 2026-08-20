@@ -21,7 +21,7 @@ const RouteFallback = () => (
     <span className='sr-only'>Loading…</span>
     <div
       aria-hidden='true'
-      className='h-6 w-6 animate-spin rounded-full border-2 border-slate-200 border-t-teal-800'
+      className='h-6 w-6 animate-spin rounded-full border-2 border-slate-200 border-t-brand-800'
     />
   </div>
 );
