@@ -176,7 +176,14 @@
         "https://www.tripadvisor.com.ph/Attraction_Review-g3135191-d11889168-Reviews-Lola_Sayong_Eco_Surf_Camp-Gubat_Sorsogon_Province_Bicol_Region_Luzon.html",
         "https://www.booksurfcamps.com/lola-sayong-eco-surfcamp/6-days-invigorating-surf-camp-philippines"
       ],
-      "verification": "cross-checked"
+      "verification": "cross-checked",
+      "photo": {
+        "src": "/assets/tourism/lola-sayong-eco-surf-camp.jpg",
+        "author": "Vyacheslav Argenberg",
+        "license": "CC BY 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:The_beach_in_stormy_weather,_Gubat,_Philippines.jpg",
+        "note": "Representative photo — not the exact camp; the Pacific-facing surf beach at Gubat, Sorsogon, the municipality where Lola Sayong and the town's reef breaks are located"
+      }
     },
     {
       "name": "San Benon / Mateo Hot and Cold Springs (Irosin)",
@@ -268,7 +275,14 @@
         "https://pia.gov.ph/features/roads-lead-to-sorsogon-for-kasanggayahan-festival/",
         "https://sorsogon.gov.ph/kasanggayahan-festival-2024/"
       ],
-      "verification": "cross-checked"
+      "verification": "cross-checked",
+      "photo": {
+        "src": "/assets/tourism/kasanggayahan-festival.jpg",
+        "author": "Mahartaka",
+        "license": "CC0",
+        "source": "https://commons.wikimedia.org/wiki/File:Sorsogon_Guinness_Record_-_Sorsogon_governor_Chiz_Escudero_and_celebrity_wife_Heart_Evangelista_performing_Pantomina.webp",
+        "note": "Representative photo — not from a specific parade; dancers performing the Pantomina sa Tinampo, Sorsogon's signature folk dance showcased during the Kasanggayahan Festival (2019 world-record staging)"
+      }
     },
     {
       "name": "Pili Festival (Sorsogon City)",
@@ -334,7 +348,14 @@
         "https://www.tripadvisor.com/Attraction_Review-g1016344-d2625411-Reviews-Donsol_Firefly_Tour-Donsol_Sorsogon_Province_Bicol_Region_Luzon.html",
         "https://wanderworldbyjan.com/2015/06/02/donsol-firefly-river-watching/"
       ],
-      "verification": "cross-checked"
+      "verification": "cross-checked",
+      "photo": {
+        "src": "/assets/tourism/donsol-firefly-river-cruise.jpg",
+        "author": "amanderson2",
+        "license": "CC BY 2.0",
+        "source": "https://www.flickr.com/photos/49399018@N00/13062455273",
+        "note": "The wooden outrigger boats used for the Donsol (Ogod) River firefly-watching cruise, moored at dusk (the fireflies themselves are not pictured)"
+      }
     },
     {
       "name": "Palogtoc Falls",
@@ -372,7 +393,14 @@
         "https://sandee.com/philippines/bicol/prieto-diaz/prieto-diaz-mangrove-ecopark",
         "https://newsinfo.inquirer.net/1304243/prieto-diaz-mangrove-ecosystem-wins-1st-prize-of-best-mangrove-award-in-bicol/amp"
       ],
-      "verification": "cross-checked"
+      "verification": "cross-checked",
+      "photo": {
+        "src": "/assets/tourism/prieto-diaz-mangrove-ecopark.jpg",
+        "author": "Forest Botial-Jarvis (via iNaturalist)",
+        "license": "CC BY 4.0",
+        "source": "https://www.inaturalist.org/observations/134136905",
+        "note": "A red mangrove (Rhizophoraceae) photographed within the mangrove forest at Prieto Diaz, Sorsogon"
+      }
     },
     {
       "name": "Balay Buhay sa Uma Bee Farm",
@@ -392,7 +420,14 @@
         "https://www.facebook.com/BalayBuhaySaUma/",
         "https://www.tripadvisor.com/Attraction_Review-g8099563-d8134408-Reviews-Balay_Buhay_Sa_Uma_Bee_Farm-Bulusan_Sorsogon_Province_Bicol_Region_Luzon.html"
       ],
-      "verification": "cross-checked"
+      "verification": "cross-checked",
+      "photo": {
+        "src": "/assets/tourism/balay-buhay-sa-uma-bee-farm.jpg",
+        "author": "MarvinBikolano",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Stingless_Bees_of_Bicol,_Philippines.jpg",
+        "note": "Representative photo — not the exact site; a Bicol stingless-bee (kiwot) hive setup in coconut shells, the kind of apiary kept at the bee farm"
+      }
     }
   ],
   "media": {
