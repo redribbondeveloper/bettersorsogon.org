@@ -335,6 +335,13 @@ const AboutPage: FC = () => {
             Code: open source · Content: CC BY 4.0 · Cost to the People of Sorsogon:
             ₱0.
           </p>
+          <p className='mt-4 text-sm text-slate-500'>
+            Province silhouette derived from{' '}
+            <Ext href='https://commons.wikimedia.org/wiki/File:Sorsogon_in_Philippines.svg'>
+              Sorsogon in Philippines.svg
+            </Ext>{' '}
+            by Milenioscuro (CC BY-SA 4.0).
+          </p>
         </div>
       </Section>
     </>

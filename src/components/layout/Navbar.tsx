@@ -1,17 +1,16 @@
 import { FC, ReactNode, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { mainNavigation } from '../../data/navigation';
+import SorsogonMark from '../sorsogon/SorsogonMark';
 
-/** Custom wordmark — no official seal. Teal monogram + BetterGov Sorsogon. */
+/** Custom wordmark — no official seal. Province silhouette + BetterGov Sorsogon. */
 const Wordmark: FC = () => (
   <Link
     to='/'
-    className='flex items-center gap-2.5 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
+    className='flex min-h-11 items-center gap-2.5 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
     aria-label='BetterGov Sorsogon — home'
   >
-    <span className='flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-teal-800 text-[17px] font-semibold text-white'>
-      S
-    </span>
+    <SorsogonMark className='h-9 w-auto shrink-0 text-teal-800' />
     <span className='text-lg tracking-tight text-slate-900'>
       <span className='font-semibold'>BetterGov</span>{' '}
       <span className='font-light'>Sorsogon</span>
