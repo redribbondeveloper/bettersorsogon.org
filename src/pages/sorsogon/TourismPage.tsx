@@ -1,66 +1,24 @@
-import { FC, ReactNode, useMemo, useState } from 'react';
-import { ChevronDown } from 'lucide-react';
+import { FC, useMemo, useState } from 'react';
 import SEO from '../../components/SEO';
-import {
-  HeroShell,
-  Section,
-  Card,
-  Badge,
-  Btn,
-  WaveDivider,
-  UnverifiedBadge,
-} from '../../components/sorsogon/kit';
+import { Section, Btn, WaveDivider } from '../../components/sorsogon/kit';
 import tourismData from '../../data/sorsogon/tourism.json';
+import {
+  CATEGORY_ORDER,
+  formatCategory,
+  humanizeMunicipality,
+  type Attraction,
+  type Photo,
+  type Video,
+} from '../../components/sorsogon/tourism/helpers';
+import TourismHero from '../../components/sorsogon/tourism/TourismHero';
+import WatchSorsogon from '../../components/sorsogon/tourism/WatchSorsogon';
+import AttractionCard from '../../components/sorsogon/tourism/AttractionCard';
 
 /* ------------------------------------------------------------------ */
-/* Data types + helpers                                                */
+/* Data                                                                */
 /* ------------------------------------------------------------------ */
-interface Attraction {
-  name: string;
-  slug: string;
-  municipality: string;
-  category: string;
-  summary: string;
-  how_to_get_there: string | null;
-  best_time: string | null;
-  fees: string | null;
-  contact: string | null;
-  facebook: string | null;
-  notes: string | null;
-  sources: string[];
-  verification: string;
-}
-
-const attractions = tourismData.attractions as Attraction[];
-
-/** Canonical display order for category pills; only those present render. */
-const CATEGORY_ORDER = [
-  'nature',
-  'beach',
-  'diving',
-  'heritage',
-  'festival',
-  'food',
-  'wellness',
-];
-
-const formatCategory = (cat: string): string =>
-  cat.charAt(0).toUpperCase() + cat.slice(1);
-
-/** "sorsogon-city" -> "Sorsogon City"; "province" -> "Province-wide". */
-const humanizeMunicipality = (slug: string): string =>
-  slug === 'province'
-    ? 'Province-wide'
-    : slug
-        .split('-')
-        .map(part => part.charAt(0).toUpperCase() + part.slice(1))
-        .join(' ');
-
-const categoryVariant = (cat: string): 'amber' | 'teal' | 'slate' => {
-  if (cat === 'festival') return 'amber';
-  if (cat === 'nature' || cat === 'beach') return 'teal';
-  return 'slate';
-};
+const attractions = tourismData.attractions as unknown as Attraction[];
+const videos = tourismData.media.videos as unknown as Video[];
 
 const presentCategories = CATEGORY_ORDER.filter(cat =>
   attractions.some(a => a.category === cat)
@@ -69,6 +27,11 @@ const presentCategories = CATEGORY_ORDER.filter(cat =>
 const presentMunicipalities = Array.from(
   new Set(attractions.map(a => a.municipality))
 ).sort();
+
+/** Iconic landscape from the dataset, reused as the photographic hero. */
+const heroImage: Photo | undefined = attractions.find(
+  a => a.slug === 'bulusan-volcano-natural-park'
+)?.photo;
 
 /* ------------------------------------------------------------------ */
 /* CategoryPill                                                        */
@@ -91,96 +54,6 @@ const CategoryPill: FC<{
     {label}
   </button>
 );
-
-/* ------------------------------------------------------------------ */
-/* AttractionCard                                                      */
-/* ------------------------------------------------------------------ */
-const AttractionCard: FC<{ a: Attraction }> = ({ a }) => {
-  const planRows: Array<{ term: string; node: ReactNode }> = [];
-  if (a.how_to_get_there)
-    planRows.push({ term: 'How to get there', node: a.how_to_get_there });
-  if (a.best_time) planRows.push({ term: 'Best time', node: a.best_time });
-  if (a.fees)
-    planRows.push({
-      term: 'Fees',
-      node: (
-        <>
-          {a.fees}
-          <span className='text-slate-400'> — confirm before traveling</span>
-        </>
-      ),
-    });
-  if (a.contact) planRows.push({ term: 'Contact', node: a.contact });
-  if (a.facebook)
-    planRows.push({
-      term: 'Facebook',
-      node: (
-        <a
-          href={a.facebook}
-          target='_blank'
-          rel='noopener noreferrer'
-          className='rounded text-teal-800 transition-colors duration-150 hover:text-teal-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2'
-        >
-          Open Facebook page
-        </a>
-      ),
-    });
-
-  return (
-    <Card as='article' className='flex h-full flex-col'>
-      <div className='flex items-center justify-between gap-3'>
-        <Badge variant={categoryVariant(a.category)}>
-          {formatCategory(a.category)}
-        </Badge>
-        <span className='text-sm text-slate-500'>
-          {humanizeMunicipality(a.municipality)}
-        </span>
-      </div>
-
-      <h3 className='mt-3 text-base font-semibold tracking-tight text-slate-900'>
-        {a.name}
-      </h3>
-
-      {a.verification === 'single-source' && (
-        <div className='mt-2'>
-          <UnverifiedBadge />
-        </div>
-      )}
-
-      <p className='mt-2 text-[15px] leading-relaxed text-slate-600'>
-        {a.summary}
-      </p>
-
-      {a.notes && (
-        <p className='mt-3 text-xs leading-relaxed text-slate-500'>{a.notes}</p>
-      )}
-
-      {planRows.length > 0 && (
-        <details className='group mt-auto border-t border-slate-100 pt-4'>
-          <summary className='flex min-h-11 cursor-pointer list-none items-center justify-between gap-2 rounded text-sm font-medium text-teal-800 transition-colors duration-150 hover:text-teal-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 [&::-webkit-details-marker]:hidden'>
-            <span>Plan your visit</span>
-            <ChevronDown
-              aria-hidden='true'
-              className='h-4 w-4 shrink-0 transition-transform duration-200 group-open:rotate-180'
-            />
-          </summary>
-          <dl className='mt-3 space-y-3'>
-            {planRows.map(row => (
-              <div key={row.term}>
-                <dt className='text-xs uppercase tracking-wide text-slate-500'>
-                  {row.term}
-                </dt>
-                <dd className='mt-1 text-sm leading-relaxed text-slate-700'>
-                  {row.node}
-                </dd>
-              </div>
-            ))}
-          </dl>
-        </details>
-      )}
-    </Card>
-  );
-};
 
 /* ------------------------------------------------------------------ */
 /* TourismPage                                                         */
@@ -211,16 +84,16 @@ const TourismPage: FC = () => {
         description='Explore Sorsogon — whale sharks in Donsol, Bulusan volcano and lake, Pacific beaches in Gubat and Matnog, heritage churches, and provincial festivals. Community-verified visitor information.'
       />
 
-      <HeroShell
-        className='[&>div]:pt-16 [&>div]:pb-16'
-        eyebrow='EXPLORE THE PROVINCE'
-        title='Explore Sorsogon'
-        subtitle="Whale sharks, volcano lakes, and the Pacific's quiet beaches."
-      />
+      <TourismHero image={heroImage} />
 
-      <Section variant='white'>
-        <h2 className='sr-only'>Places to explore in Sorsogon</h2>
+      <WatchSorsogon videos={videos} />
 
+      <Section
+        variant='white'
+        eyebrow='WHERE TO GO'
+        title='Places to explore'
+        description='Beaches, volcano trails, springs, heritage churches, and festivals across the province. Filter by interest or municipality.'
+      >
         {/* Filters */}
         <div className='flex flex-col gap-4 md:flex-row md:items-center md:justify-between'>
           <div
@@ -275,7 +148,7 @@ const TourismPage: FC = () => {
 
         {/* Grid / empty state */}
         {filtered.length > 0 ? (
-          <div className='mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+          <div className='mt-6 grid items-start gap-6 sm:grid-cols-2 lg:grid-cols-3'>
             {filtered.map(a => (
               <AttractionCard key={a.slug} a={a} />
             ))}

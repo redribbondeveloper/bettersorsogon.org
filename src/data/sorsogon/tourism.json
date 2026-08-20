@@ -21,7 +21,13 @@
         "https://www.pna.gov.ph/articles/1168271",
         "https://pia.gov.ph/news/whale-shark-sightings-signal-start-of-butanding-season-in-donsol/"
       ],
-      "verification": "cross-checked"
+      "verification": "cross-checked",
+      "photo": {
+        "src": "/assets/tourism/donsol-whale-shark-interaction.jpg",
+        "author": "Shubert Ciencia",
+        "license": "CC BY 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Butanding_Whale_Shark_(Donsol,_Sorsogon)_(794278440).jpg"
+      }
     },
     {
       "name": "Bulusan Volcano Natural Park & Bulusan Lake",
@@ -41,7 +47,13 @@
         "https://outoftownblog.com/bulusan-volcano-natural-park/",
         "https://bicoltravelguides.com/bulusan-volcano-park-travel-guide-kayak-trek-and-chill-in-sorsogon/"
       ],
-      "verification": "cross-checked"
+      "verification": "cross-checked",
+      "photo": {
+        "src": "/assets/tourism/bulusan-volcano-natural-park.jpg",
+        "author": "Joefran4",
+        "license": "CC0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bulusan_LK.jpg"
+      }
     },
     {
       "name": "Mount Bulusan Summit Trek",
@@ -61,7 +73,13 @@
         "https://www.trailadventours.com/philippine-mountains/mt-bulusan",
         "https://duhtravel.com/mt-bulusan-hike-sorsogon/"
       ],
-      "verification": "cross-checked"
+      "verification": "cross-checked",
+      "photo": {
+        "src": "/assets/tourism/mount-bulusan-trek.jpg",
+        "author": "Chris Newhall (U.S. Geological Survey)",
+        "license": "Public domain (USGS)",
+        "source": "https://commons.wikimedia.org/wiki/File:A_dormant_Mt._Bulusan.jpg"
+      }
     },
     {
       "name": "Subic Beach (Matnog)",
@@ -81,7 +99,13 @@
         "https://www.tripzilla.ph/pink-sand-beaches-matnog-sorsogon/11262",
         "https://guidetothephilippines.ph/trips-and-experiences/tours-by-destination/matnog-day-tour"
       ],
-      "verification": "cross-checked"
+      "verification": "cross-checked",
+      "photo": {
+        "src": "/assets/tourism/subic-beach-matnog.jpg",
+        "author": "Maria Glenda Perico",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Subic_Beach,_Sorsogon.jpg"
+      }
     },
     {
       "name": "Juag Lagoon Marine Sanctuary (Matnog)",
@@ -100,7 +124,13 @@
         "https://www.taraletsanywhere.com/island-hopping-matnog-sorsogon/",
         "https://guidetothephilippines.ph/trips-and-experiences/tours-by-destination/matnog-day-tour"
       ],
-      "verification": "cross-checked"
+      "verification": "cross-checked",
+      "photo": {
+        "src": "/assets/tourism/juag-lagoon-marine-sanctuary.jpg",
+        "author": "Maria Glenda Perico",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Juag_Fish_Sanctuary.jpg"
+      }
     },
     {
       "name": "Rizal Beach (Gubat)",
@@ -120,7 +150,13 @@
         "https://outoftownblog.com/top-11-best-beaches-in-sorsogon-province-plus-how-to-get-there/",
         "https://www.facebook.com/Sorsogon101/posts/2617420335216877/"
       ],
-      "verification": "cross-checked"
+      "verification": "cross-checked",
+      "photo": {
+        "src": "/assets/tourism/rizal-beach-gubat.jpg",
+        "author": "Irvin Parco Sto. Tomas",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Child-friendly_Rizal_beach.jpg"
+      }
     },
     {
       "name": "Lola Sayong Eco-Surf Camp & Gubat Surfing",
@@ -179,7 +215,13 @@
         "https://www.traveltobicol.com/2025/01/29/st-joseph-parish-church-a-historic-gem-in-sorsogon/",
         "https://bicoltravelguides.com/barcelona-church-and-spanish-fort-ruins-travel-guide-to-a-historic-gem-in-sorsogon/"
       ],
-      "verification": "cross-checked"
+      "verification": "cross-checked",
+      "photo": {
+        "src": "/assets/tourism/barcelona-church-ruins.jpg",
+        "author": "Ro rona08",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:St._Joseph_Church_Barcelona_Sorsogon.jpg"
+      }
     },
     {
       "name": "Paguriran Island & Lagoon (Bacon, Sorsogon City)",
@@ -199,7 +241,14 @@
         "https://www.tripadvisor.com/Attraction_Review-g678562-d1876096-Reviews-Paguriran_Island-Sorsogon_Sorsogon_Province_Bicol_Region_Luzon.html",
         "https://bicoltravelguides.com/paguriran-beach-discover-sorsogons-hidden-lagoon-paradise/"
       ],
-      "verification": "cross-checked"
+      "verification": "cross-checked",
+      "photo": {
+        "src": "/assets/tourism/paguriran-island-lagoon.jpg",
+        "author": "Wenielyngalves",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Magnificent_View_of_Mayon_at_Paguriran_Island,_Bacon,_Sorsogon.jpg",
+        "note": "Sunset view of Paguriran Island with Mayon Volcano in the distance"
+      }
     },
     {
       "name": "Kasanggayahan Festival",
@@ -259,7 +308,14 @@
         "https://dateline-ibalon.com/2024/07/pili-nut-the-chosen-pasalubong-from-bikol/",
         "https://www.facebook.com/p/Edgelines-Pili-Products-Pasalubong-Shop-100063887449415/"
       ],
-      "verification": "cross-checked"
+      "verification": "cross-checked",
+      "photo": {
+        "src": "/assets/tourism/pili-nut-products-pasalubong.jpg",
+        "author": "Yawrei",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Iriga_Pili_nut_at_pasalubong_store_WTR.JPG",
+        "note": "Representative photo: assorted pili-nut pasalubong products at a Bicol pasalubong store"
+      }
     },
     {
       "name": "Donsol Firefly River Cruise",
@@ -338,5 +394,21 @@
       ],
       "verification": "cross-checked"
     }
-  ]
+  ],
+  "media": {
+    "videos": [
+      {
+        "id": "ADNgEHFDYzo",
+        "title": "It's More Fun in the Philippines | DOT Official AVP",
+        "channel": "Tourism Philippines",
+        "url": "https://www.youtube.com/watch?v=ADNgEHFDYzo"
+      },
+      {
+        "id": "pATH-YBsDQY",
+        "title": "The Donsol Story",
+        "channel": "WWF-Philippines",
+        "url": "https://www.youtube.com/watch?v=pATH-YBsDQY"
+      }
+    ]
+  }
 }
