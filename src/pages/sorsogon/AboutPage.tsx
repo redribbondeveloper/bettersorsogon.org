@@ -291,7 +291,7 @@ const AboutPage: FC = () => {
           </Btn>
           <Btn
             variant='secondary'
-            href='https://github.com/bettergovph/bettergov'
+            href='https://github.com/johnpaulgarcia/bettersorsogon.org'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -313,8 +313,7 @@ const AboutPage: FC = () => {
               hello@bettersorsogon.org
             </a>{' '}
             with a link to an official source and we will verify and update it.
-            The project repository will also be published for corrections via
-            pull request.
+            You can also open a correction directly as a pull request on GitHub.
           </p>
         </Card>
       </Section>

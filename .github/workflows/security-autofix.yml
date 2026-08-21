@@ -1,0 +1,41 @@
+name: Security autofix
+
+# Weekly bot: applies every dependency security fix npm can make
+# non-destructively and opens a PR with the result — which then runs the
+# full CI gauntlet like any other PR.
+
+on:
+  schedule:
+    - cron: '0 3 * * 1' # Monday 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  audit-fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Apply non-breaking security fixes
+        run: npm audit fix || true
+      - name: Report remaining issues
+        run: npm audit --audit-level=high || true
+      - name: Open PR if anything changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: bot/security-autofix
+          title: 'chore(security): automated dependency security fixes'
+          commit-message: 'chore(security): npm audit fix (automated)'
+          body: |
+            Automated weekly `npm audit fix`. Only non-breaking (semver-compatible)
+            security fixes are applied. Anything requiring a major bump is left
+            for a human and listed in the workflow log.
+          labels: security, dependencies
+          delete-branch: true

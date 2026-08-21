@@ -41,7 +41,7 @@ Deploy: any static host. Cloudflare Pages works out of the box (`npm run build`,
 
 ## Contributing
 
-Corrections are the most valuable contribution — especially phone numbers and office details. Every data file records its sources, so a correction just needs a better official source. Correction channels will be posted once the public repository is up.
+Corrections are the most valuable contribution — especially phone numbers and office details. Every data file records its sources, so a correction just needs a better official source. Email corrections to hello@bettersorsogon.org or open a pull request here.
 
 ## Licenses
 

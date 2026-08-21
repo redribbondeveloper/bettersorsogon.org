@@ -17,7 +17,6 @@
     "test:e2e:report": "playwright show-report",
     "wrangler": "wrangler",
     "preview": "vite preview",
-    "prepare": "husky",
     "functions:dev": "wrangler dev ./functions/index.ts",
     "functions:build": "tsc -p ./functions/tsconfig.json",
     "functions:deploy": "wrangler deploy ./functions/index.ts",
