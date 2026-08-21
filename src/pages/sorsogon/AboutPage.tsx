@@ -331,10 +331,12 @@ const AboutPage: FC = () => {
             you act or transact.
           </p>
           <p>
-            Your privacy is respected by design: BetterGov Sorsogon collects no
-            personal data, sets no cookies, and runs no analytics or trackers.
-            There is nothing to opt out of, because nothing about your visit is
-            recorded.
+            Your privacy is respected by design: BetterGov Sorsogon sets no
+            cookies, requires no accounts, and builds no personal profiles. We
+            keep standard server logs for security and reliability
+            (auto-deleted after 90 days) and count aggregate, cookieless
+            pageviews and clicks to understand which information helps people
+            — never who you are.
           </p>
         </div>
 

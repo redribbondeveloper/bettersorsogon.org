@@ -24,6 +24,8 @@ const VideoFacade: FC<{ video: Video }> = ({ video }) => {
         <button
           type='button'
           onClick={() => setPlaying(true)}
+          data-umami-event='video-play'
+          data-umami-event-title={video.title}
           aria-label={`Play video: ${video.title}`}
           className='group relative block aspect-video w-full overflow-hidden rounded-2xl bg-slate-900 shadow-[0_1px_2px_rgba(0,0,0,0.05)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
         >
