@@ -1,8 +1,11 @@
 import { FC, ReactNode, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { Github } from 'lucide-react';
 import { mainNavigation } from '../../data/navigation';
 import SorsogonMark from '../sorsogon/SorsogonMark';
 import hotlinesData from '../../data/sorsogon/hotlines.json';
+
+const REPO_URL = 'https://github.com/johnpaulgarcia/bettersorsogon.org';
 
 /* Minimal shape needed from hotlines.json for the top utility bar. */
 interface Hotline {
@@ -171,6 +174,18 @@ const Navbar: FC = () => {
                 {renderLabel(item.label)}
               </Link>
             ))}
+            <span aria-hidden='true' className='h-4 w-px bg-slate-200' />
+            <a
+              href={REPO_URL}
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='Contribute on GitHub'
+              title='Contribute on GitHub'
+              data-umami-event='github-nav'
+              className={`inline-flex h-16 items-center text-slate-500 hover:text-brand-800 ${focusRing}`}
+            >
+              <Github aria-hidden='true' className='h-[18px] w-[18px]' />
+            </a>
           </div>
 
           {/* Mobile toggle */}
@@ -225,6 +240,16 @@ const Navbar: FC = () => {
                   {renderLabel(item.label)}
                 </Link>
               ))}
+              <a
+                href={REPO_URL}
+                target='_blank'
+                rel='noopener noreferrer'
+                data-umami-event='github-nav'
+                className={`flex min-h-11 items-center gap-2 border-t border-slate-100 py-2 text-[15px] font-medium text-slate-700 hover:text-brand-800 ${focusRing}`}
+              >
+                <Github aria-hidden='true' className='h-[18px] w-[18px]' />
+                Contribute on GitHub
+              </a>
             </div>
           </div>
         )}

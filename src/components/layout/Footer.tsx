@@ -85,6 +85,18 @@ const Footer: FC = () => {
             </h3>
             <ul className='mt-4 space-y-2.5 text-sm leading-relaxed text-slate-300'>
               <li>
+                <a
+                  href='https://github.com/johnpaulgarcia/bettersorsogon.org'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  data-umami-event='github-footer'
+                  className={creditLinkClass}
+                >
+                  Contribute on GitHub
+                </a>{' '}
+                — corrections, photos, and code welcome
+              </li>
+              <li>
                 Built on the open-source{' '}
                 <a
                   href='https://bettergov.ph'
