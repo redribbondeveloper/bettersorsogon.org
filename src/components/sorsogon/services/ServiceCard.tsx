@@ -54,6 +54,8 @@ export const ServiceCard: FC<{ service: Service }> = ({ service }) => {
                 href={service.url}
                 target='_blank'
                 rel='noopener noreferrer'
+                data-umami-event='service-link'
+                data-umami-event-service={service.service}
                 className='w-full sm:w-auto'
               >
                 Go to official site

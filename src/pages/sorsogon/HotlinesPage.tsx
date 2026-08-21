@@ -73,6 +73,9 @@ const HotlineItem: FC<{ hotline: Hotline }> = ({ hotline }) => (
         <a
           key={num}
           href={telHref(num)}
+          data-umami-event='hotline-call'
+          data-umami-event-hotline={hotline.name}
+          data-umami-event-scope={hotline.scope}
           className='inline-flex min-h-11 w-fit items-center gap-2 rounded text-xl font-semibold tabular-nums text-brand-800 transition-colors duration-150 hover:text-brand-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
         >
           <Phone aria-hidden='true' className='h-4 w-4 shrink-0 text-brand-700/70' />
@@ -170,6 +173,7 @@ const HotlinesPage: FC = () => {
           <Btn
             href='tel:911'
             variant='danger'
+            data-umami-event='call-911'
             className='h-14 w-full px-8 text-lg ring-2 ring-white/70 ring-offset-2 ring-offset-red-700 sm:w-auto print:hidden'
           >
             <Phone aria-hidden='true' className='h-5 w-5' />
@@ -186,6 +190,7 @@ const HotlinesPage: FC = () => {
         <Btn
           variant='secondary'
           onClick={() => window.print()}
+          data-umami-event='print-hotlines'
           className='print:hidden'
         >
           <Printer aria-hidden='true' className='h-4 w-4' />

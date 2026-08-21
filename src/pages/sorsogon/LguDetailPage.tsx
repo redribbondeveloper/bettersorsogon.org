@@ -173,6 +173,9 @@ const LguDetailPage: FC = () => {
                         <a
                           key={number}
                           href={telHref(number)}
+                          data-umami-event='hotline-call'
+                          data-umami-event-hotline={hotline.name}
+                          data-umami-event-scope={lgu.slug}
                           className='rounded text-lg font-semibold tabular-nums text-brand-800 transition-colors duration-150 hover:text-brand-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2'
                         >
                           {number}

@@ -38,6 +38,8 @@ const ActionCard: FC<ActionCardProps> = ({
   return (
     <Link
       to={to}
+      data-umami-event='quick-action'
+      data-umami-event-target={title}
       className={`group relative flex h-full rounded-2xl border p-5 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 ${surface} ${
         wide ? 'flex-row items-center gap-5' : 'flex-col'
       }`}
