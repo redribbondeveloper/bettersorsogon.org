@@ -28,7 +28,7 @@ jobs:
       - name: Report remaining issues
         run: npm audit --audit-level=high || true
       - name: Open PR if anything changed
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: bot/security-autofix
           title: 'chore(security): automated dependency security fixes'
