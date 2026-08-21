@@ -10,7 +10,7 @@
  * Umami script automatically — no per-component imports needed.
  */
 
-const UMAMI_WEBSITE_ID = ''; // paste the Umami website id here to enable
+const UMAMI_WEBSITE_ID = '28969e96-631f-48e9-9f49-889d5c2d2be8';
 const UMAMI_SRC = 'https://cloud.umami.is/script.js';
 
 export function initAnalytics(): void {
