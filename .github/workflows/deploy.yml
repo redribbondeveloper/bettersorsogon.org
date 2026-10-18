@@ -46,7 +46,7 @@ jobs:
         run: npm ci
       - if: steps.creds.outputs.present == 'true'
         run: npm run build
-      - uses: aws-actions/configure-aws-credentials@v4
+      - uses: aws-actions/configure-aws-credentials@v6
         if: steps.creds.outputs.present == 'true'
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
